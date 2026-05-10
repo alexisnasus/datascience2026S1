@@ -1,0 +1,347 @@
+cod_reg;nom_reg;cod_pro;nom_pro;cod_com;nom_com;cod_deprov;nom_deprov;prom_lect2m_com;prom_mate2m_com;dif_lect2m_com;dif_mate2m_com;sigdif_lect2m_com;sigdif_mate2m_com;palu_eda_ins_lect2m_com;palu_eda_ele_lect2m_com;palu_eda_ade_lect2m_com;palu_eda_ins_mate2m_com;palu_eda_ele_mate2m_com;palu_eda_ade_mate2m_com;codigo_bbdd;fecha_bbdd;grado;agno
+1;Región de Tarapacá;11;Iquique;1101;Iquique;11;Iquique;248;254;0;1;0;0;50.6;29.8;19.6;53.4;29.7;16.8;v12025;20260423;2m;2025
+1;Región de Tarapacá;11;Iquique;1107;Alto Hospicio;11;Iquique;242;255;-3;3;0;0;56.3;28.1;15.6;52.1;30.6;17.3;v12025;20260423;2m;2025
+1;Región de Tarapacá;14;Tamarugal;1401;Pozo Almonte;14;Tamarugal;245;261;4;19;0;1;52.7;30.6;16.7;47.1;35.8;17.1;v12025;20260423;2m;2025
+1;Región de Tarapacá;14;Tamarugal;1402;Camiña;14;Tamarugal;224;222;-17;-4;-1;0;63.6;36.4;0;73.9;26.1;0;v12025;20260423;2m;2025
+1;Región de Tarapacá;14;Tamarugal;1403;Colchane;14;Tamarugal;202;230;-19;8;-1;0;94.4;5.6;0;55.6;44.4;0;v12025;20260423;2m;2025
+1;Región de Tarapacá;14;Tamarugal;1404;Huara;14;Tamarugal;208;200;-25;-14;-1;0;68.4;26.3;5.3;94.9;5.1;0;v12025;20260423;2m;2025
+1;Región de Tarapacá;14;Tamarugal;1405;Pica;14;Tamarugal;245;266;-5;10;0;0;53.2;36.4;10.4;44.7;36.8;18.4;v12025;20260423;2m;2025
+2;Región de Antofagasta;21;Antofagasta;2101;Antofagasta;21;Antofagasta;248;256;1;4;0;0;51;28;21;53.1;29;17.9;v12025;20260423;2m;2025
+2;Región de Antofagasta;21;Antofagasta;2102;Mejillones;21;Antofagasta;224;219;-6;12;0;0;74.2;19.2;6.6;79.1;18.7;2.1;v12025;20260423;2m;2025
+2;Región de Antofagasta;21;Antofagasta;2103;Sierra Gorda;21;Antofagasta;232;207;5;9;0;0;;;;90;10;0;v12025;20260423;2m;2025
+2;Región de Antofagasta;21;Antofagasta;2104;Taltal;21;Antofagasta;253;258;10;-8;1;0;46.5;32.7;20.8;48.1;32.7;19.1;v12025;20260423;2m;2025
+2;Región de Antofagasta;22;El Loa;2201;Calama;22;El Loa;252;265;1;0;0;0;47.4;32.6;19.9;44.6;35.2;20.2;v12025;20260423;2m;2025
+2;Región de Antofagasta;22;El Loa;2202;Ollagüe;22;El Loa;282;331;;;;;;;;;;;v12025;20260423;2m;2025
+2;Región de Antofagasta;22;El Loa;2203;San Pedro de Atacama;22;El Loa;234;247;21;23;1;1;60;25.3;14.7;53.9;37.3;8.8;v12025;20260423;2m;2025
+2;Región de Antofagasta;23;Tocopilla;2301;Tocopilla;21;Antofagasta;233;234;13;8;1;0;63.3;22.8;13.9;65.4;26.7;7.9;v12025;20260423;2m;2025
+2;Región de Antofagasta;23;Tocopilla;2302;María Elena;21;Antofagasta;233;260;-2;20;0;1;64.7;22.1;13.2;55.2;25.4;19.4;v12025;20260423;2m;2025
+3;Región de Atacama;31;Copiapó;3101;Copiapó;31;Copiapo - Chanaral;241;251;1;12;0;1;55.3;26.2;18.6;56.9;27.8;15.3;v12025;20260423;2m;2025
+3;Región de Atacama;31;Copiapó;3102;Caldera;31;Copiapo - Chanaral;227;223;1;0;0;0;63.9;24.9;11.2;75.4;19.8;4.8;v12025;20260423;2m;2025
+3;Región de Atacama;31;Copiapó;3103;Tierra Amarilla;31;Copiapo - Chanaral;199;207;-2;-9;0;0;90.4;8.7;1;87;10.2;2.8;v12025;20260423;2m;2025
+3;Región de Atacama;32;Chañaral;3201;Chañaral;31;Copiapo - Chanaral;237;224;18;-2;1;0;60.1;27.2;12.7;74;22.6;3.4;v12025;20260423;2m;2025
+3;Región de Atacama;32;Chañaral;3202;Diego de Almagro;31;Copiapo - Chanaral;232;242;-6;8;0;0;63.5;25.1;11.4;62.3;25.7;12;v12025;20260423;2m;2025
+3;Región de Atacama;33;Huasco;3301;Vallenar;32;Huasco - Vallenar;253;269;-8;0;-1;0;49.8;25.3;24.9;42.8;31.2;26;v12025;20260423;2m;2025
+3;Región de Atacama;33;Huasco;3302;Alto del Carmen;32;Huasco - Vallenar;239;295;2;7;0;0;62.5;18.8;18.8;16.7;50;33.3;v12025;20260423;2m;2025
+3;Región de Atacama;33;Huasco;3303;Freirina;32;Huasco - Vallenar;232;246;-5;9;0;0;64.3;28.6;7.1;54;35.6;10.3;v12025;20260423;2m;2025
+3;Región de Atacama;33;Huasco;3304;Huasco;32;Huasco - Vallenar;219;221;-9;-9;0;0;69.2;24.4;6.4;78.8;20;1.2;v12025;20260423;2m;2025
+4;Región de Coquimbo;41;Elqui;4101;La Serena;41;Elqui;255;267;1;6;0;0;44.3;30.9;24.8;45.6;31.4;23;v12025;20260423;2m;2025
+4;Región de Coquimbo;41;Elqui;4102;Coquimbo;41;Elqui;247;254;-2;1;0;0;50;31.1;18.9;52;33.1;14.8;v12025;20260423;2m;2025
+4;Región de Coquimbo;41;Elqui;4103;Andacollo;41;Elqui;253;270;-7;-22;0;-1;48.2;34.2;17.5;39.5;38.6;21.9;v12025;20260423;2m;2025
+4;Región de Coquimbo;41;Elqui;4104;La Higuera;41;Elqui;215;232;0;2;0;0;77.4;22.6;0;71.4;17.9;10.7;v12025;20260423;2m;2025
+4;Región de Coquimbo;41;Elqui;4105;Paihuano;41;Elqui;230;217;3;-1;0;0;58.1;25.6;16.3;81;16.7;2.4;v12025;20260423;2m;2025
+4;Región de Coquimbo;41;Elqui;4106;Vicuña;41;Elqui;251;252;4;-2;0;0;49;32.7;18.3;53;29.7;17.3;v12025;20260423;2m;2025
+4;Región de Coquimbo;43;Limarí;4303;Monte Patria;42;Limari;234;243;10;-1;1;0;61.4;26.7;11.9;57.8;34.6;7.6;v12025;20260423;2m;2025
+4;Región de Coquimbo;43;Limarí;4304;Punitaqui;42;Limari;227;233;-9;-4;0;0;64.6;18.5;16.9;72.4;16.4;11.2;v12025;20260423;2m;2025
+4;Región de Coquimbo;43;Limarí;4305;Río Hurtado;42;Limari;248;235;15;17;0;0;63.6;27.3;9.1;72.7;22.7;4.5;v12025;20260423;2m;2025
+4;Región de Coquimbo;42;Choapa;4201;Illapel;43;Choapa;236;237;4;2;0;0;59.3;25.6;15.2;62.8;28.7;8.5;v12025;20260423;2m;2025
+4;Región de Coquimbo;42;Choapa;4202;Canela;43;Choapa;236;238;10;2;0;0;61.5;24.4;14.1;63.9;24.1;12;v12025;20260423;2m;2025
+4;Región de Coquimbo;42;Choapa;4203;Los Vilos;43;Choapa;230;241;-1;-7;0;0;64.6;22.1;13.3;61.1;31.4;7.5;v12025;20260423;2m;2025
+4;Región de Coquimbo;42;Choapa;4204;Salamanca;43;Choapa;232;241;-7;5;0;0;66;23.5;10.5;57;34.2;8.8;v12025;20260423;2m;2025
+4;Región de Coquimbo;43;Limarí;4301;Ovalle;42;Limari;251;256;3;1;0;0;46.8;31.3;21.9;49;34.8;16.2;v12025;20260423;2m;2025
+4;Región de Coquimbo;43;Limarí;4302;Combarbalá;42;Limari;241;244;15;14;1;0;50.8;37.7;11.5;61.7;28.1;10.2;v12025;20260423;2m;2025
+5;Región de Valparaíso;51;Valparaíso;5101;Valparaíso;53;Valparaiso - Isla;245;255;7;6;1;0;52.2;29.5;18.4;51.6;33;15.4;v12025;20260423;2m;2025
+5;Región de Valparaíso;51;Valparaíso;5102;Casablanca;53;Valparaiso - Isla;247;273;-5;27;0;1;51.3;30.3;18.5;40.8;33.6;25.6;v12025;20260423;2m;2025
+5;Región de Valparaíso;51;Valparaíso;5103;Concón;53;Valparaiso - Isla;261;280;-2;-1;0;0;39;31.3;29.7;37.6;32.1;30.2;v12025;20260423;2m;2025
+5;Región de Valparaíso;51;Valparaíso;5104;Juan Fernández;53;Valparaiso - Isla;234;198;;-34;;0;;;;100;0;0;v12025;20260423;2m;2025
+5;Región de Valparaíso;51;Valparaíso;5105;Puchuncaví;53;Valparaiso - Isla;211;222;-14;1;-1;0;72.5;18.1;9.4;78.9;18;3.1;v12025;20260423;2m;2025
+5;Región de Valparaíso;51;Valparaíso;5107;Quintero;53;Valparaiso - Isla;244;250;6;3;0;0;52;29.8;18.1;57.6;27.9;14.5;v12025;20260423;2m;2025
+5;Región de Valparaíso;58;Marga Marga;5803;Olmué;51;Quillota - Petorca;230;218;12;3;1;0;67.3;20.9;11.8;82.5;14.6;2.9;v12025;20260423;2m;2025
+5;Región de Valparaíso;58;Marga Marga;5804;Villa Alemana;53;Valparaiso - Isla;245;269;-5;2;0;0;49.5;29.3;21.2;42.6;34.9;22.5;v12025;20260423;2m;2025
+5;Región de Valparaíso;57;San Felipe;5703;Llaillay;52;San Felipe - Los A;240;245;13;14;1;1;58.3;24.5;17.2;60.1;29.7;10.2;v12025;20260423;2m;2025
+5;Región de Valparaíso;57;San Felipe;5704;Panquehue;52;San Felipe - Los A;262;298;9;64;0;1;32;46;22;25.5;42.6;31.9;v12025;20260423;2m;2025
+5;Región de Valparaíso;57;San Felipe;5705;Putaendo;52;San Felipe - Los A;238;244;-6;4;0;0;56.4;23.4;20.2;59.6;28.7;11.7;v12025;20260423;2m;2025
+5;Región de Valparaíso;57;San Felipe;5706;Santa María;52;San Felipe - Los A;235;228;11;13;1;0;61.5;26.6;11.9;68.5;25.9;5.6;v12025;20260423;2m;2025
+5;Región de Valparaíso;58;Marga Marga;5801;Quilpué;53;Valparaiso - Isla;246;257;2;6;0;0;50.3;30.3;19.4;50;33.8;16.1;v12025;20260423;2m;2025
+5;Región de Valparaíso;58;Marga Marga;5802;Limache;51;Quillota - Petorca;240;242;3;3;0;0;55.3;25.9;18.8;62;26.6;11.4;v12025;20260423;2m;2025
+5;Región de Valparaíso;56;San Antonio;5603;Cartagena;54;San Antonio;238;264;2;16;0;1;58.8;24.4;16.8;51.7;22.5;25.8;v12025;20260423;2m;2025
+5;Región de Valparaíso;56;San Antonio;5604;El Quisco;54;San Antonio;240;226;-13;-18;-1;-1;54.2;25;20.8;73.9;20.7;5.4;v12025;20260423;2m;2025
+5;Región de Valparaíso;56;San Antonio;5605;El Tabo;54;San Antonio;239;223;-1;2;0;0;62.5;23.2;14.3;82.4;13.7;3.9;v12025;20260423;2m;2025
+5;Región de Valparaíso;56;San Antonio;5606;Santo Domingo;54;San Antonio;259;263;-6;-3;0;0;39.2;32.9;27.8;48.4;28.4;23.2;v12025;20260423;2m;2025
+5;Región de Valparaíso;57;San Felipe;5701;San Felipe;52;San Felipe - Los A;255;269;6;4;0;0;44.7;32.4;22.9;43.6;32.2;24.2;v12025;20260423;2m;2025
+5;Región de Valparaíso;57;San Felipe;5702;Catemu;52;San Felipe - Los A;238;234;0;-22;0;-1;60.7;29.8;9.5;64.5;27.1;8.4;v12025;20260423;2m;2025
+5;Región de Valparaíso;55;Quillota;5502;La Calera;51;Quillota - Petorca;243;255;-2;5;0;0;54.2;27.1;18.7;52.8;31.1;16.2;v12025;20260423;2m;2025
+5;Región de Valparaíso;55;Quillota;5503;Hijuelas;51;Quillota - Petorca;232;232;6;14;0;0;66.4;19;14.6;66.7;27.3;6;v12025;20260423;2m;2025
+5;Región de Valparaíso;55;Quillota;5504;La Cruz;51;Quillota - Petorca;236;226;-3;0;0;0;63.5;25.9;10.6;75;21.7;3.3;v12025;20260423;2m;2025
+5;Región de Valparaíso;55;Quillota;5506;Nogales;51;Quillota - Petorca;243;242;2;4;0;0;54.9;27.9;17.3;57.4;32.9;9.7;v12025;20260423;2m;2025
+5;Región de Valparaíso;56;San Antonio;5601;San Antonio;54;San Antonio;243;242;-2;-4;0;0;53.1;30.3;16.6;62;26.5;11.6;v12025;20260423;2m;2025
+5;Región de Valparaíso;56;San Antonio;5602;Algarrobo;54;San Antonio;231;222;-5;-8;0;0;61.7;25;13.3;80.4;14.7;4.9;v12025;20260423;2m;2025
+5;Región de Valparaíso;54;Petorca;5401;La Ligua;51;Quillota - Petorca;235;243;-2;-8;0;0;59.8;25.5;14.7;58.6;30.4;11.1;v12025;20260423;2m;2025
+5;Región de Valparaíso;54;Petorca;5402;Cabildo;51;Quillota - Petorca;242;248;6;12;0;1;52.8;30.3;16.9;54.8;35.6;9.6;v12025;20260423;2m;2025
+5;Región de Valparaíso;54;Petorca;5403;Papudo;51;Quillota - Petorca;202;219;-30;-12;-1;0;77.8;17.8;4.4;76.9;20.5;2.6;v12025;20260423;2m;2025
+5;Región de Valparaíso;54;Petorca;5404;Petorca;51;Quillota - Petorca;243;240;-4;-1;0;0;55.7;33;11.4;63;29.3;7.6;v12025;20260423;2m;2025
+5;Región de Valparaíso;54;Petorca;5405;Zapallar;51;Quillota - Petorca;250;263;-4;-6;0;0;48.1;32.6;19.4;44.7;37.1;18.2;v12025;20260423;2m;2025
+5;Región de Valparaíso;55;Quillota;5501;Quillota;51;Quillota - Petorca;254;267;0;-3;0;0;44.8;31;24.2;43.5;33.3;23.2;v12025;20260423;2m;2025
+5;Región de Valparaíso;51;Valparaíso;5109;Viña del Mar;53;Valparaiso - Isla;253;267;-3;2;0;0;45.5;30.9;23.6;45.2;31.8;23;v12025;20260423;2m;2025
+5;Región de Valparaíso;52;Isla de Pas;5201;Isla de Pascua;53;Valparaiso - Isla;236;236;-19;-15;-1;0;59.1;24.7;16.1;67.4;26.3;6.3;v12025;20260423;2m;2025
+5;Región de Valparaíso;53;Los Andes;5301;Los Andes;52;San Felipe - Los A;251;258;0;4;0;0;47.2;32.3;20.5;47.9;36.5;15.5;v12025;20260423;2m;2025
+5;Región de Valparaíso;53;Los Andes;5302;Calle Larga;52;San Felipe - Los A;231;261;0;5;0;0;61.7;27.5;10.8;48.5;33.9;17.5;v12025;20260423;2m;2025
+5;Región de Valparaíso;53;Los Andes;5303;Rinconada;52;San Felipe - Los A;252;275;6;10;0;0;52.9;23.5;23.5;37.1;37.1;25.7;v12025;20260423;2m;2025
+5;Región de Valparaíso;53;Los Andes;5304;San Esteban;52;San Felipe - Los A;210;208;3;-6;0;0;81.8;13.6;4.5;89.4;10.6;0;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6101;Rancagua;61;Cachapoal;252;265;0;3;0;0;46.6;30.8;22.6;47.4;30.1;22.6;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6102;Codegua;61;Cachapoal;237;232;5;20;0;1;56.4;33.7;9.9;67;29;4;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6103;Coinco;61;Cachapoal;237;218;-12;-17;0;0;64.5;29;6.5;81.3;18.8;0;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6104;Coltauco;61;Cachapoal;241;238;6;5;0;0;58;22.7;19.3;61.4;28.6;10;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6105;Doñihue;61;Cachapoal;249;260;-1;5;0;0;48.1;23.3;28.6;53.6;22.7;23.7;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6106;Graneros;61;Cachapoal;238;236;2;3;0;0;56;28.5;15.4;64.3;28.6;7.1;v12025;20260423;2m;2025
+6;Región del Libertador;63;Colchagua;6308;Placilla;62;Colchagua;247;224;-12;-3;0;0;;;;;;;v12025;20260423;2m;2025
+6;Región del Libertador;63;Colchagua;6309;Pumanque;62;Colchagua;214;247;-19;14;0;0;66.7;33.3;0;53.8;30.8;15.4;v12025;20260423;2m;2025
+6;Región del Libertador;63;Colchagua;6310;Santa Cruz;62;Colchagua;263;275;4;3;0;0;36.4;33.5;30.1;42.4;28;29.6;v12025;20260423;2m;2025
+6;Región del Libertador;63;Colchagua;6302;Chépica;62;Colchagua;240;242;4;7;0;0;56.8;27.3;15.9;59.3;28.4;12.3;v12025;20260423;2m;2025
+6;Región del Libertador;63;Colchagua;6303;Chimbarongo;62;Colchagua;245;251;2;9;0;0;49.2;31.7;19;58;24.8;17.2;v12025;20260423;2m;2025
+6;Región del Libertador;63;Colchagua;6304;Lolol;62;Colchagua;243;256;6;38;0;1;55;28.4;16.5;55.1;26.2;18.7;v12025;20260423;2m;2025
+6;Región del Libertador;63;Colchagua;6305;Nancagua;62;Colchagua;238;260;1;6;0;0;59.6;22.8;17.6;46.8;33.1;20.1;v12025;20260423;2m;2025
+6;Región del Libertador;63;Colchagua;6306;Palmilla;62;Colchagua;230;240;12;23;0;1;60;32.7;7.3;58.5;37.7;3.8;v12025;20260423;2m;2025
+6;Región del Libertador;63;Colchagua;6307;Peralillo;62;Colchagua;234;243;0;8;0;0;67.5;22.9;9.6;57;32.9;10.1;v12025;20260423;2m;2025
+6;Región del Libertador;62;Cardenal Ca;6202;La Estrella;63;Cardenal Caro;241;257;11;-7;0;0;66.7;20.8;12.5;47.8;39.1;13;v12025;20260423;2m;2025
+6;Región del Libertador;62;Cardenal Ca;6203;Litueche;63;Cardenal Caro;229;227;-22;-19;-1;-1;66.7;24.7;8.6;69.4;28.2;2.4;v12025;20260423;2m;2025
+6;Región del Libertador;62;Cardenal Ca;6204;Marchihue;63;Cardenal Caro;227;224;-1;16;0;0;64.8;25.9;9.3;70.6;25.5;3.9;v12025;20260423;2m;2025
+6;Región del Libertador;62;Cardenal Ca;6205;Navidad;63;Cardenal Caro;231;225;-2;-13;0;0;63.6;21.2;15.2;74.2;15.2;10.6;v12025;20260423;2m;2025
+6;Región del Libertador;62;Cardenal Ca;6206;Paredones;63;Cardenal Caro;233;232;-1;1;0;0;67.3;23.1;9.6;69.8;26.4;3.8;v12025;20260423;2m;2025
+6;Región del Libertador;63;Colchagua;6301;San Fernando;62;Colchagua;249;253;3;4;0;0;50.3;27.6;22.1;54.7;29.2;16;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6113;Pichidegua;61;Cachapoal;223;227;0;0;0;0;64.9;26.6;8.5;69.9;25.8;4.3;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6114;Quinta de Tilcoco;61;Cachapoal;251;234;6;16;0;1;50;29.2;20.8;64.5;30.6;4.8;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6115;Rengo;61;Cachapoal;253;261;2;9;0;1;46.3;32.1;21.6;49.2;31.5;19.3;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6116;Requínoa;61;Cachapoal;241;238;0;-17;0;-1;55.9;27.5;16.6;64.8;26.4;8.8;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6117;San Vicente;61;Cachapoal;250;259;7;6;1;0;47.8;30.9;21.3;47.8;35.2;17;v12025;20260423;2m;2025
+6;Región del Libertador;62;Cardenal Ca;6201;Pichilemu;63;Cardenal Caro;237;243;-10;5;-1;0;56.8;28.6;14.6;59.7;28.4;11.8;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6107;Las Cabras;61;Cachapoal;237;233;4;3;0;0;63.3;22.4;14.2;68.6;25.7;5.7;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6108;Machalí;61;Cachapoal;268;296;-1;-1;0;0;35.1;31.2;33.8;30.2;30.6;39.2;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6109;Malloa;61;Cachapoal;211;212;-35;-19;-1;0;79.5;17.9;2.6;88.2;11.8;0;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6110;Mostazal;61;Cachapoal;227;227;4;13;0;0;67.5;22.1;10.4;76.5;18.5;4.9;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6111;Olivar;61;Cachapoal;247;254;-2;6;0;0;51.5;31;17.5;51.5;34.4;14.1;v12025;20260423;2m;2025
+6;Región del Libertador;61;Cachapoal;6112;Peumo;61;Cachapoal;235;232;6;-6;0;0;62.2;24.4;13.5;70.5;21.2;8.3;v12025;20260423;2m;2025
+7;Región del Maule;71;Talca;7101;Talca;72;Talca;255;267;10;10;1;1;43.5;30.6;25.9;46.1;29.5;24.4;v12025;20260423;2m;2025
+7;Región del Maule;71;Talca;7102;Constitución;72;Talca;264;281;6;21;0;1;37.4;34.1;28.5;32.1;42.6;25.3;v12025;20260423;2m;2025
+7;Región del Maule;71;Talca;7103;Curepto;72;Talca;236;250;-15;-4;-1;0;51.5;37.9;10.6;51.6;35.9;12.5;v12025;20260423;2m;2025
+7;Región del Maule;71;Talca;7104;Empedrado;72;Talca;241;229;29;-3;1;0;55.6;25.9;18.5;72;16;12;v12025;20260423;2m;2025
+7;Región del Maule;71;Talca;7105;Maule;72;Talca;248;263;-1;12;0;1;53;30.6;16.4;48.6;29.4;22;v12025;20260423;2m;2025
+7;Región del Maule;71;Talca;7106;Pelarco;72;Talca;225;225;36;14;1;0;69.8;26.4;3.8;74.5;25.5;0;v12025;20260423;2m;2025
+7;Región del Maule;74;Linares;7403;Longaví;73;Linares;231;245;-5;13;0;0;67.2;21.3;11.5;54.3;33.1;12.6;v12025;20260423;2m;2025
+7;Región del Maule;74;Linares;7404;Parral;73;Linares;249;263;8;15;1;1;48.4;29.7;21.9;46.9;31.7;21.5;v12025;20260423;2m;2025
+7;Región del Maule;74;Linares;7405;Retiro;73;Linares;238;243;6;8;0;0;56.6;29.4;14;56;36.7;7.3;v12025;20260423;2m;2025
+7;Región del Maule;74;Linares;7406;San Javier;73;Linares;273;290;14;-2;1;0;32.6;32.2;35.3;31.1;33.8;35.1;v12025;20260423;2m;2025
+7;Región del Maule;74;Linares;7407;Villa Alegre;73;Linares;213;208;-9;-9;0;0;77.8;17.5;4.8;87.9;10.6;1.5;v12025;20260423;2m;2025
+7;Región del Maule;74;Linares;7408;Yerbas Buenas;73;Linares;207;229;-18;5;-1;0;79.7;15;5.2;73.5;21.8;4.8;v12025;20260423;2m;2025
+7;Región del Maule;73;Curicó;7306;Romeral;71;Curico;237;225;4;-7;0;0;53.8;33;13.2;76;20.2;3.8;v12025;20260423;2m;2025
+7;Región del Maule;73;Curicó;7307;Sagrada Familia;71;Curico;209;217;-17;-1;-1;0;76.2;20.5;3.3;82;17.2;0.8;v12025;20260423;2m;2025
+7;Región del Maule;73;Curicó;7308;Teno;71;Curico;257;275;12;-3;1;0;44.8;31.6;23.6;43.1;29.3;27.6;v12025;20260423;2m;2025
+7;Región del Maule;73;Curicó;7309;Vichuquén;71;Curico;256;285;16;32;1;1;47.5;27.5;25;31.7;43.9;24.4;v12025;20260423;2m;2025
+7;Región del Maule;74;Linares;7401;Linares;73;Linares;255;267;0;0;0;0;43.1;33.3;23.6;43.2;35.1;21.7;v12025;20260423;2m;2025
+7;Región del Maule;74;Linares;7402;Colbún;73;Linares;217;227;12;15;1;1;72.2;20.4;7.4;67.9;30.3;1.8;v12025;20260423;2m;2025
+7;Región del Maule;72;Cauquenes;7203;Pelluhue;74;Cauquenes;212;212;-20;-1;-1;0;72.6;21.4;6;82.4;12.9;4.7;v12025;20260423;2m;2025
+7;Región del Maule;73;Curicó;7301;Curicó;71;Curico;268;283;5;1;0;0;35.4;33.7;30.9;35.3;33.5;31.2;v12025;20260423;2m;2025
+7;Región del Maule;73;Curicó;7302;Hualañé;71;Curico;243;250;-6;-3;0;0;55.6;31.9;12.6;53.3;34.8;11.9;v12025;20260423;2m;2025
+7;Región del Maule;73;Curicó;7303;Licantén;71;Curico;249;278;-16;-5;-1;0;51.1;23.3;25.6;31.7;39;29.3;v12025;20260423;2m;2025
+7;Región del Maule;73;Curicó;7304;Molina;71;Curico;236;241;-1;10;0;1;56.9;29.9;13.2;59.6;30.2;10.2;v12025;20260423;2m;2025
+7;Región del Maule;73;Curicó;7305;Rauco;71;Curico;237;239;9;20;0;0;68.8;28.1;3.1;62.5;28.1;9.4;v12025;20260423;2m;2025
+7;Región del Maule;71;Talca;7107;Pencahue;72;Talca;210;202;12;-2;0;0;72;24;4;92.3;7.7;0;v12025;20260423;2m;2025
+7;Región del Maule;71;Talca;7108;Río Claro;72;Talca;240;245;10;-2;0;0;56.8;29.5;13.6;55.6;33.3;11.1;v12025;20260423;2m;2025
+7;Región del Maule;71;Talca;7109;San Clemente;72;Talca;227;229;-6;-2;0;0;67.4;24.2;8.4;71.9;21.6;6.5;v12025;20260423;2m;2025
+7;Región del Maule;71;Talca;7110;San Rafael;72;Talca;;;;;;;;;;;;;v12025;20260423;2m;2025
+7;Región del Maule;72;Cauquenes;7201;Cauquenes;74;Cauquenes;255;260;10;8;1;0;45.1;33.4;21.5;48.4;33.4;18.2;v12025;20260423;2m;2025
+7;Región del Maule;72;Cauquenes;7202;Chanco;74;Cauquenes;207;217;-18;-9;-1;0;80.9;12.8;6.4;76.1;21.7;2.2;v12025;20260423;2m;2025
+8;Región del Biobío;81;Concepción;8101;Concepción;83;Concepcion;255;274;4;6;0;0;42.9;31.5;25.6;39.8;35.1;25.2;v12025;20260423;2m;2025
+8;Región del Biobío;81;Concepción;8102;Coronel;83;Concepcion;243;252;3;9;0;1;53.5;30.4;16.1;54.6;31.1;14.2;v12025;20260423;2m;2025
+8;Región del Biobío;81;Concepción;8103;Chiguayante;83;Concepcion;259;275;7;4;1;0;40.4;32.3;27.3;40.9;32.6;26.5;v12025;20260423;2m;2025
+8;Región del Biobío;81;Concepción;8104;Florida;83;Concepcion;234;234;2;0;0;0;61.5;26.9;11.5;64.8;30.5;4.8;v12025;20260423;2m;2025
+8;Región del Biobío;81;Concepción;8105;Hualqui;83;Concepcion;216;235;-15;-2;-1;0;71.2;16.3;12.5;69.9;20.4;9.7;v12025;20260423;2m;2025
+8;Región del Biobío;81;Concepción;8106;Lota;83;Concepcion;245;238;1;6;0;0;52.2;31.1;16.7;64;27.7;8.3;v12025;20260423;2m;2025
+8;Región del Biobío;83;Biobío;8312;Tucapel;82;Bio Bio;241;234;-4;-2;0;0;58.3;30;11.7;66.7;25;8.3;v12025;20260423;2m;2025
+8;Región del Biobío;83;Biobío;8313;Yumbel;82;Bio Bio;239;245;-5;1;0;0;58.1;29;12.9;57;33.7;9.2;v12025;20260423;2m;2025
+8;Región del Biobío;83;Biobío;8314;Alto Biobío;82;Bio Bio;203;219;-8;15;0;0;85.2;14.8;0;81.5;18.5;0;v12025;20260423;2m;2025
+8;Región del Biobío;83;Biobío;8306;Nacimiento;82;Bio Bio;247;254;6;5;0;0;51.3;32.3;16.4;50.9;36.5;12.6;v12025;20260423;2m;2025
+8;Región del Biobío;83;Biobío;8307;Negrete;82;Bio Bio;245;233;16;10;1;0;54.7;32;13.3;66.2;26.8;7;v12025;20260423;2m;2025
+8;Región del Biobío;83;Biobío;8308;Quilaco;82;Bio Bio;247;237;24;8;1;0;48.4;32.3;19.4;58.3;36.1;5.6;v12025;20260423;2m;2025
+8;Región del Biobío;83;Biobío;8309;Quilleco;82;Bio Bio;238;239;17;18;1;1;48.4;38.7;12.9;58.8;33.8;7.4;v12025;20260423;2m;2025
+8;Región del Biobío;83;Biobío;8310;San Rosendo;82;Bio Bio;249;239;-8;-21;0;0;42.9;38.1;19;59.1;36.4;4.5;v12025;20260423;2m;2025
+8;Región del Biobío;83;Biobío;8311;Santa Bárbara;82;Bio Bio;233;237;6;5;0;0;61.8;27.1;11.2;65.6;26.3;8.1;v12025;20260423;2m;2025
+8;Región del Biobío;82;Arauco;8207;Tirúa;84;Arauco;221;251;-17;35;-1;1;74.6;22;3.4;44.4;46.3;9.3;v12025;20260423;2m;2025
+8;Región del Biobío;83;Biobío;8301;Los Ángeles;82;Bio Bio;252;265;2;3;0;0;46.7;31.5;21.9;44.7;34.9;20.4;v12025;20260423;2m;2025
+8;Región del Biobío;83;Biobío;8302;Antuco;82;Bio Bio;263;266;24;41;1;1;33.3;50;16.7;45.5;27.3;27.3;v12025;20260423;2m;2025
+8;Región del Biobío;83;Biobío;8303;Cabrero;82;Bio Bio;246;256;2;2;0;0;54.9;27.1;18;47.4;36.7;15.9;v12025;20260423;2m;2025
+8;Región del Biobío;83;Biobío;8304;Laja;82;Bio Bio;241;255;-1;5;0;0;55.6;25.4;19;52.6;31.2;16.2;v12025;20260423;2m;2025
+8;Región del Biobío;83;Biobío;8305;Mulchén;82;Bio Bio;247;245;7;12;0;1;52.7;27.9;19.4;56;34.2;9.7;v12025;20260423;2m;2025
+8;Región del Biobío;82;Arauco;8201;Lebu;84;Arauco;258;252;6;-2;0;0;45.3;27.5;27.2;55.8;26.5;17.7;v12025;20260423;2m;2025
+8;Región del Biobío;82;Arauco;8202;Arauco;84;Arauco;245;258;13;12;1;1;48.5;32.2;19.3;51.6;32.3;16.1;v12025;20260423;2m;2025
+8;Región del Biobío;82;Arauco;8203;Cañete;84;Arauco;263;273;9;6;1;0;37.2;35.6;27.2;39.7;36.5;23.8;v12025;20260423;2m;2025
+8;Región del Biobío;82;Arauco;8204;Contulmo;84;Arauco;231;223;0;-5;0;0;63.8;20.7;15.5;72.9;25.4;1.7;v12025;20260423;2m;2025
+8;Región del Biobío;82;Arauco;8205;Curanilahue;84;Arauco;237;245;7;3;0;0;56.8;29.2;14.1;63.8;25;11.2;v12025;20260423;2m;2025
+8;Región del Biobío;82;Arauco;8206;Los Álamos;84;Arauco;243;244;3;9;0;0;52.3;31.2;16.5;61.7;28.2;10.2;v12025;20260423;2m;2025
+8;Región del Biobío;81;Concepción;8107;Penco;83;Concepcion;238;243;1;9;0;0;57;27.9;15.1;58.3;29.9;11.8;v12025;20260423;2m;2025
+8;Región del Biobío;81;Concepción;8108;San Pedro de la Paz;83;Concepcion;260;288;-1;-1;0;0;41.4;29.1;29.5;34.4;28.4;37.2;v12025;20260423;2m;2025
+8;Región del Biobío;81;Concepción;8109;Santa Juana;83;Concepcion;225;240;-8;-4;0;0;64.1;23.5;12.4;62;28.7;9.4;v12025;20260423;2m;2025
+8;Región del Biobío;81;Concepción;8110;Talcahuano;83;Concepcion;249;257;3;4;0;0;49.1;29.1;21.7;51;32.7;16.3;v12025;20260423;2m;2025
+8;Región del Biobío;81;Concepción;8111;Tomé;83;Concepcion;242;247;4;-7;0;0;54.3;27.6;18.1;59.8;24.8;15.5;v12025;20260423;2m;2025
+8;Región del Biobío;81;Concepción;8112;Hualpén;83;Concepcion;243;265;-5;1;0;0;52;27.8;20.2;47.1;31.1;21.8;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9101;Temuco;92;Cautin Norte;253;265;5;5;0;0;46.5;29.1;24.4;45.4;32.3;22.3;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9102;Carahue;92;Cautin Norte;235;231;11;8;1;0;61.3;24.8;14;68.2;25.4;6.5;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9103;Cunco;92;Cautin Norte;233;240;-7;5;0;0;59.6;28.3;12.1;59.8;31.8;8.4;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9104;Curarrehue;93;Cautin Sur;218;211;15;2;1;0;76.5;17.6;5.9;86.1;13.9;0;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9105;Freire;93;Cautin Sur;213;218;-19;-6;-1;0;73.5;17.7;8.8;78.2;17.6;4.2;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9106;Galvarino;92;Cautin Norte;219;235;-11;-3;-1;0;73.9;19.7;6.3;65.9;27.5;6.5;v12025;20260423;2m;2025
+9;Región de La Araucaní;92;Malleco;9210;Traiguén;91;Malleco;237;247;-1;-2;0;0;59.1;26.2;14.7;59.4;25;15.6;v12025;20260423;2m;2025
+9;Región de La Araucaní;92;Malleco;9211;Victoria;91;Malleco;238;245;-3;6;0;0;58;26.3;15.7;59.6;29.3;11.1;v12025;20260423;2m;2025
+9;Región de La Araucaní;92;Malleco;9204;Ercilla;91;Malleco;200;199;-39;-11;-1;0;83.3;16.7;0;94.4;5.6;0;v12025;20260423;2m;2025
+9;Región de La Araucaní;92;Malleco;9205;Lonquimay;91;Malleco;221;230;10;12;0;0;71.2;22.1;6.7;70.4;24.1;5.6;v12025;20260423;2m;2025
+9;Región de La Araucaní;92;Malleco;9206;Los Sauces;91;Malleco;233;226;8;-2;0;0;58.8;23.5;17.6;69.8;27.9;2.3;v12025;20260423;2m;2025
+9;Región de La Araucaní;92;Malleco;9207;Lumaco;91;Malleco;217;217;37;22;1;1;77.6;18.4;4.1;80.4;19.6;0;v12025;20260423;2m;2025
+9;Región de La Araucaní;92;Malleco;9208;Purén;91;Malleco;233;249;-2;16;0;1;57.9;29.4;12.7;53.8;31.5;14.6;v12025;20260423;2m;2025
+9;Región de La Araucaní;92;Malleco;9209;Renaico;91;Malleco;232;222;-3;-17;0;0;66.7;24;9.3;77.1;20;2.9;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9119;Vilcún;92;Cautin Norte;246;258;18;27;1;1;50.7;34;15.3;47.3;38.5;14.2;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9120;Villarrica;93;Cautin Sur;249;262;-1;7;0;0;48.8;30.3;21;45.7;34.1;20.2;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9121;Cholchol;92;Cautin Norte;237;252;-14;-8;-1;0;59.2;26.6;14.1;51.9;34.6;13.5;v12025;20260423;2m;2025
+9;Región de La Araucaní;92;Malleco;9201;Angol;91;Malleco;253;265;8;7;1;0;48.3;31.4;20.3;45.9;33.1;21;v12025;20260423;2m;2025
+9;Región de La Araucaní;92;Malleco;9202;Collipulli;91;Malleco;215;224;-3;-3;0;0;72.8;18.5;8.7;77.1;19.2;3.8;v12025;20260423;2m;2025
+9;Región de La Araucaní;92;Malleco;9203;Curacautín;91;Malleco;227;236;1;8;0;0;62.7;28.6;8.6;64.1;29.9;6;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9113;Perquenco;92;Cautin Norte;216;215;-18;-11;-1;0;77.1;20;2.9;83.5;13.6;2.9;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9114;Pitrufquén;93;Cautin Sur;247;258;-6;-5;0;0;50.4;34.9;14.8;46.9;36.7;16.4;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9115;Pucón;93;Cautin Sur;259;260;14;22;1;1;40.8;31.8;27.4;46;37.2;16.7;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9116;Saavedra;92;Cautin Norte;204;215;6;5;0;0;85.4;8.3;6.3;80.4;17.4;2.2;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9117;Teodoro Schmidt;93;Cautin Sur;228;237;-10;5;-1;0;65.5;26.5;8;62.2;32.4;5.4;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9118;Toltén;93;Cautin Sur;237;271;4;34;0;1;58;31.9;10.1;39;28.8;32.2;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9107;Gorbea;93;Cautin Sur;239;241;18;25;1;1;55.7;31.8;12.5;56.3;36.8;6.9;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9108;Lautaro;92;Cautin Norte;228;234;5;6;0;0;64.1;25;10.9;68.3;22.5;9.2;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9109;Loncoche;93;Cautin Sur;234;247;0;-3;0;0;60.4;27.2;12.4;58.3;25;16.7;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9110;Melipeuco;92;Cautin Norte;247;232;9;-1;0;0;56.8;25.9;17.3;71.3;22.5;6.3;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9111;Nueva Imperial;92;Cautin Norte;225;231;-2;2;0;0;67.5;22.7;9.8;66.9;26.1;6.9;v12025;20260423;2m;2025
+9;Región de La Araucaní;91;Cautín;9112;Padre las Casas;93;Cautin Sur;234;240;5;-5;0;0;60.4;27.1;12.5;59.3;33.9;6.7;v12025;20260423;2m;2025
+10;Región de Los Lagos;101;Llanquihue;10101;Puerto Montt;101;Llanquihue;250;260;0;4;0;0;47.3;31.4;21.3;49;31.8;19.2;v12025;20260423;2m;2025
+10;Región de Los Lagos;101;Llanquihue;10102;Calbuco;101;Llanquihue;229;232;2;-5;0;0;64.7;25.7;9.5;69;24.3;6.6;v12025;20260423;2m;2025
+10;Región de Los Lagos;101;Llanquihue;10103;Cochamó;101;Llanquihue;221;243;-24;-4;-1;0;76.7;13.3;10;62.1;31;6.9;v12025;20260423;2m;2025
+10;Región de Los Lagos;101;Llanquihue;10104;Fresia;101;Llanquihue;228;226;6;6;0;0;67.2;20.9;11.9;72;20.5;7.6;v12025;20260423;2m;2025
+10;Región de Los Lagos;101;Llanquihue;10105;Frutillar;101;Llanquihue;239;236;-5;-8;0;0;57.3;26.7;16;69.6;22.8;7.6;v12025;20260423;2m;2025
+10;Región de Los Lagos;101;Llanquihue;10106;Los Muermos;101;Llanquihue;232;241;2;-4;0;0;64;21.3;14.7;61;28.9;10.1;v12025;20260423;2m;2025
+10;Región de Los Lagos;103;Osorno;10306;San Juan de la Costa;103;Osorno;244;239;1;16;0;0;50;34.3;15.7;62.2;29.7;8.1;v12025;20260423;2m;2025
+10;Región de Los Lagos;103;Osorno;10307;San Pablo;103;Osorno;219;226;-13;-5;-1;0;75.3;18.2;6.5;68.6;28.6;2.9;v12025;20260423;2m;2025
+10;Región de Los Lagos;104;Palena;10401;Chaitén;104;Palena;253;261;36;25;1;1;50.9;35.8;13.2;47.1;39.2;13.7;v12025;20260423;2m;2025
+10;Región de Los Lagos;104;Palena;10402;Futaleufú;104;Palena;226;257;-34;-5;-1;0;56;36;8;40;48;12;v12025;20260423;2m;2025
+10;Región de Los Lagos;104;Palena;10403;Hualaihué;101;Llanquihue;234;233;4;23;0;1;63.6;24;12.4;68.7;23.7;7.6;v12025;20260423;2m;2025
+10;Región de Los Lagos;104;Palena;10404;Palena;104;Palena;230;242;-11;-4;0;0;59.3;29.6;11.1;60.7;28.6;10.7;v12025;20260423;2m;2025
+10;Región de Los Lagos;102;Chiloé;10210;Quinchao;102;Chiloe;256;242;11;-8;1;0;45;34.3;20.7;58.7;32.9;8.4;v12025;20260423;2m;2025
+10;Región de Los Lagos;103;Osorno;10301;Osorno;103;Osorno;255;267;3;6;0;0;42.7;32.5;24.8;45.4;31.9;22.7;v12025;20260423;2m;2025
+10;Región de Los Lagos;103;Osorno;10302;Puerto Octay;103;Osorno;231;230;3;-14;0;0;66;18.1;16;63.8;25.5;10.6;v12025;20260423;2m;2025
+10;Región de Los Lagos;103;Osorno;10303;Purranque;103;Osorno;244;247;-1;6;0;0;53.5;27.3;19.2;58;30.4;11.6;v12025;20260423;2m;2025
+10;Región de Los Lagos;103;Osorno;10304;Puyehue;103;Osorno;232;253;-8;-37;0;-1;62.1;27.6;10.3;51.7;32.2;16.1;v12025;20260423;2m;2025
+10;Región de Los Lagos;103;Osorno;10305;Río Negro;103;Osorno;238;235;4;3;0;0;60.7;26.4;12.9;65.9;26.8;7.3;v12025;20260423;2m;2025
+10;Región de Los Lagos;102;Chiloé;10204;Curaco de Vélez;102;Chiloe;235;243;-3;8;0;0;65.4;25;9.6;54.7;37.7;7.5;v12025;20260423;2m;2025
+10;Región de Los Lagos;102;Chiloé;10205;Dalcahue;102;Chiloe;224;228;-2;-7;0;0;73.4;20.3;6.3;65.7;28.6;5.7;v12025;20260423;2m;2025
+10;Región de Los Lagos;102;Chiloé;10206;Puqueldón;102;Chiloe;238;293;-19;2;-1;0;66.7;22.2;11.1;31.3;43.8;25;v12025;20260423;2m;2025
+10;Región de Los Lagos;102;Chiloé;10207;Queilén;102;Chiloe;243;269;-15;-28;-1;-1;54.8;32.3;12.9;34.5;48.3;17.2;v12025;20260423;2m;2025
+10;Región de Los Lagos;102;Chiloé;10208;Quellón;102;Chiloe;228;242;-8;12;0;1;65.3;21.3;13.4;61.9;29.1;9;v12025;20260423;2m;2025
+10;Región de Los Lagos;102;Chiloé;10209;Quemchi;102;Chiloe;243;221;44;7;1;0;51.7;27.6;20.7;84.6;11.5;3.8;v12025;20260423;2m;2025
+10;Región de Los Lagos;101;Llanquihue;10107;Llanquihue;101;Llanquihue;232;252;-6;5;0;0;61.8;21.6;16.7;51.5;33;15.5;v12025;20260423;2m;2025
+10;Región de Los Lagos;101;Llanquihue;10108;Maullín;101;Llanquihue;211;227;-4;15;0;0;78;17.4;4.6;74.6;19.3;6.1;v12025;20260423;2m;2025
+10;Región de Los Lagos;101;Llanquihue;10109;Puerto Varas;101;Llanquihue;253;269;7;6;0;0;44;30.4;25.6;45.7;27.6;26.7;v12025;20260423;2m;2025
+10;Región de Los Lagos;102;Chiloé;10201;Castro;102;Chiloe;242;256;1;8;0;0;55.6;26.8;17.6;49.9;35.6;14.5;v12025;20260423;2m;2025
+10;Región de Los Lagos;102;Chiloé;10202;Ancud;102;Chiloe;239;244;9;-2;1;0;59.1;22.8;18.1;60.6;28;11.4;v12025;20260423;2m;2025
+10;Región de Los Lagos;102;Chiloé;10203;Chonchi;102;Chiloe;236;242;11;6;1;0;62.1;24.2;13.7;59.1;34.2;6.7;v12025;20260423;2m;2025
+11;Región de Aysén del G;111;Coyhaique;11101;Coyhaique;111;Coyhaique;243;259;-7;3;0;0;55.3;25.6;19.1;47.7;35.1;17.2;v12025;20260423;2m;2025
+11;Región de Aysén del G;111;Coyhaique;11102;Lago Verde;111;Coyhaique;;;;;;;;;;;;;v12025;20260423;2m;2025
+11;Región de Aysén del G;112;Aysén;11201;Aysén;111;Coyhaique;252;269;3;8;0;0;47.4;31.8;20.9;42.2;33.3;24.5;v12025;20260423;2m;2025
+11;Región de Aysén del G;112;Aysén;11202;Cisnes;111;Coyhaique;239;237;6;-3;0;0;49.1;33.3;17.5;67.9;26.4;5.7;v12025;20260423;2m;2025
+11;Región de Aysén del G;112;Aysén;11203;Guaitecas;111;Coyhaique;261;256;20;27;1;0;56.3;18.8;25;47.4;42.1;10.5;v12025;20260423;2m;2025
+11;Región de Aysén del G;113;Capitán Pra;11301;Cochrane;111;Coyhaique;261;281;-11;13;0;0;45;25;30;28.9;37.8;33.3;v12025;20260423;2m;2025
+11;Región de Aysén del G;113;Capitán Pra;11302;O'higgins;111;Coyhaique;233;249;-37;22;-1;0;;;;;;;v12025;20260423;2m;2025
+11;Región de Aysén del G;113;Capitán Pra;11303;Tortel;111;Coyhaique;;;;;;;;;;;;;v12025;20260423;2m;2025
+11;Región de Aysén del G;114;General Car;11401;Chile Chico;111;Coyhaique;244;251;-10;-15;0;0;52.5;27.5;20;61.5;28.2;10.3;v12025;20260423;2m;2025
+11;Región de Aysén del G;114;General Car;11402;Río Ibáñez;111;Coyhaique;248;248;5;23;0;0;60;13.3;26.7;62.5;25;12.5;v12025;20260423;2m;2025
+12;Región de Magallanes;121;Magallanes;12101;Punta Arenas;121;Magallanes;246;257;-3;-5;0;0;50.1;30.6;19.3;50.5;32.9;16.7;v12025;20260423;2m;2025
+12;Región de Magallanes;121;Magallanes;12102;Laguna Blanca;121;Magallanes;;;;;;;;;;;;;v12025;20260423;2m;2025
+12;Región de Magallanes;121;Magallanes;12103;Río Verde;121;Magallanes;;;;;;;;;;;;;v12025;20260423;2m;2025
+12;Región de Magallanes;121;Magallanes;12104;San Gregorio;121;Magallanes;;;;;;;;;;;;;v12025;20260423;2m;2025
+12;Región de Magallanes;122;Antártica C;12201;Cabo de Hornos;121;Magallanes;262;294;6;13;0;0;30;60;10;30;25;45;v12025;20260423;2m;2025
+12;Región de Magallanes;122;Antártica C;12202;Antártica;121;Magallanes;;;;;;;;;;;;;v12025;20260423;2m;2025
+12;Región de Magallanes;123;Tierra del;12301;Porvenir;121;Magallanes;249;230;7;11;0;0;50.9;29.8;19.3;71.7;22.6;5.7;v12025;20260423;2m;2025
+12;Región de Magallanes;123;Tierra del;12302;Primavera;121;Magallanes;;;;;;;;;;;;;v12025;20260423;2m;2025
+12;Región de Magallanes;123;Tierra del;12303;Timaukel;121;Magallanes;;;;;;;;;;;;;v12025;20260423;2m;2025
+12;Región de Magallanes;124;Última Espe;12401;Natales;121;Magallanes;235;242;-3;0;0;0;61.9;24.1;14.1;61.9;28.4;9.7;v12025;20260423;2m;2025
+12;Región de Magallanes;124;Última Espe;12402;Torres del Paine;121;Magallanes;;;;;;;;;;;;;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13101;Santiago;131;Centro;257;268;1;4;0;0;42.2;31.4;26.4;43.3;34.2;22.6;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13102;Cerrillos;134;Poniente;240;258;-3;6;0;0;55.9;26.1;18.1;51.4;30.6;17.9;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13103;Cerro Navia;134;Poniente;240;248;9;12;1;1;57;26.7;16.3;59;26.6;14.5;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13104;Conchalí;137;Norte;234;239;-11;-6;-1;0;62.3;26.8;11;64.3;25.6;10.1;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13105;El Bosque;132;Sur;248;259;0;1;0;0;49.7;29.5;20.9;49.4;33.9;16.7;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13106;Estación Central;134;Poniente;246;257;5;10;0;1;54.4;25.4;20.2;52.3;29.1;18.5;v12025;20260423;2m;2025
+13;Región metropolitana;136;Talagante;13602;El Monte;135;Talagante;234;232;-4;3;0;0;60;27;13;71.4;23.2;5.4;v12025;20260423;2m;2025
+13;Región metropolitana;136;Talagante;13603;Isla de Maipo;135;Talagante;244;249;1;2;0;0;53.5;28.8;17.7;54.7;32.4;12.9;v12025;20260423;2m;2025
+13;Región metropolitana;136;Talagante;13604;Padre Hurtado;135;Talagante;250;264;1;11;0;1;47.8;32.2;20;42.4;38.6;19;v12025;20260423;2m;2025
+13;Región metropolitana;136;Talagante;13605;Peñaflor;135;Talagante;242;246;-2;6;0;0;53.2;30.5;16.3;56.7;31.8;11.5;v12025;20260423;2m;2025
+13;Región metropolitana;135;Melipilla;13501;Melipilla;135;Talagante;251;263;4;0;0;0;47.8;28.5;23.7;46.9;32.2;20.9;v12025;20260423;2m;2025
+13;Región metropolitana;135;Melipilla;13502;Alhué;135;Talagante;223;211;14;3;1;0;67.1;25.7;7.1;82.7;17.3;0;v12025;20260423;2m;2025
+13;Región metropolitana;135;Melipilla;13503;Curacaví;135;Talagante;239;248;5;10;0;1;55.2;27.2;17.6;57.4;26.4;16.2;v12025;20260423;2m;2025
+13;Región metropolitana;135;Melipilla;13504;María Pinto;135;Talagante;233;246;2;17;0;1;59.2;28;12.8;55.5;32.8;11.8;v12025;20260423;2m;2025
+13;Región metropolitana;135;Melipilla;13505;San Pedro;135;Talagante;203;211;3;-7;0;0;79.2;14.6;6.3;81.8;16.4;1.8;v12025;20260423;2m;2025
+13;Región metropolitana;136;Talagante;13601;Talagante;135;Talagante;257;271;4;6;0;0;43.2;29.9;26.9;42.2;32.7;25.1;v12025;20260423;2m;2025
+13;Región metropolitana;133;Chacabuco;13302;Lampa;137;Norte;239;251;-5;-2;0;0;57.8;26;16.2;58.3;24.4;17.3;v12025;20260423;2m;2025
+13;Región metropolitana;133;Chacabuco;13303;Tiltil;137;Norte;233;226;1;3;0;0;65;22.5;12.5;76.4;17.6;6;v12025;20260423;2m;2025
+13;Región metropolitana;134;Maipo;13401;San Bernardo;132;Sur;247;258;1;4;0;0;49.6;30.2;20.2;50.9;29.4;19.7;v12025;20260423;2m;2025
+13;Región metropolitana;134;Maipo;13402;Buin;132;Sur;247;258;4;9;0;1;49.7;29.2;21.2;51.6;28.5;19.9;v12025;20260423;2m;2025
+13;Región metropolitana;134;Maipo;13403;Calera de Tango;132;Sur;252;274;-1;7;0;0;47.4;24.1;28.5;46.5;23.9;29.6;v12025;20260423;2m;2025
+13;Región metropolitana;134;Maipo;13404;Paine;132;Sur;244;257;-6;-2;0;0;51.8;28.2;19.9;52.3;28.4;19.3;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13131;San Ramón;132;Sur;246;269;-1;6;0;0;51.3;28.8;19.9;45.2;31.4;23.4;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13132;Vitacura;133;Oriente;292;344;3;8;0;1;15.9;30.9;53.2;8.2;20.4;71.4;v12025;20260423;2m;2025
+13;Región metropolitana;132;Cordillera;13201;Puente Alto;136;Cordillera;252;265;-1;2;0;0;47;29.3;23.7;45.8;33.5;20.8;v12025;20260423;2m;2025
+13;Región metropolitana;132;Cordillera;13202;Pirque;136;Cordillera;245;247;-5;3;0;0;55.9;25.4;18.8;54.4;32;13.6;v12025;20260423;2m;2025
+13;Región metropolitana;132;Cordillera;13203;San José de Maipo;136;Cordillera;219;216;-18;-10;-1;0;75;17.6;7.4;82.3;14.9;2.8;v12025;20260423;2m;2025
+13;Región metropolitana;133;Chacabuco;13301;Colina;137;Norte;262;292;0;5;0;0;39.3;29.4;31.3;35.2;25.3;39.5;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13125;Quilicura;137;Norte;256;269;2;5;0;0;42.7;30.5;26.8;45.2;29.7;25.1;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13126;Quinta Normal;134;Poniente;240;252;5;6;0;0;56.1;27.4;16.5;53.8;31.8;14.4;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13127;Recoleta;137;Norte;247;258;3;6;0;0;51.8;29.3;18.9;49.8;31.5;18.7;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13128;Renca;134;Poniente;243;262;0;3;0;0;54.9;28.3;16.9;47.7;32.5;19.8;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13129;San Joaquín;131;Centro;240;249;-2;5;0;0;54.8;29.9;15.4;53.9;33;13.1;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13130;San Miguel;131;Centro;254;261;2;5;0;0;45.4;29.4;25.2;49.4;31;19.5;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13119;Maipú;134;Poniente;256;271;-2;-2;0;0;43;30.4;26.6;43.6;30.7;25.7;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13120;Ñuñoa;133;Oriente;262;284;-2;2;0;0;38.5;30.1;31.4;35.1;31.9;33;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13121;Pedro Aguirre Cerda;131;Centro;241;245;-2;5;0;0;56.7;25.5;17.8;58.3;30.2;11.6;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13122;Peñalolén;133;Oriente;255;275;-3;6;0;0;43.6;30.9;25.5;41.6;31.6;26.9;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13123;Providencia;133;Oriente;277;302;-1;7;0;1;26;33;41;26.2;31.2;42.6;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13124;Pudahuel;134;Poniente;252;271;4;7;0;1;44.5;32.9;22.6;41.3;33.1;25.7;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13113;La Reina;133;Oriente;272;301;2;1;0;0;30.6;30.9;38.5;27.8;29.2;42.9;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13114;Las Condes;133;Oriente;285;329;4;7;0;1;20.5;31.3;48.2;13.9;25.3;60.8;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13115;Lo Barnechea;133;Oriente;285;339;1;8;0;1;19.7;33.9;46.5;13.2;20.1;66.7;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13116;Lo Espejo;132;Sur;232;244;-13;0;-1;0;63.5;22.1;14.4;60.7;27.9;11.4;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13117;Lo Prado;134;Poniente;228;230;-9;-14;-1;-1;64.3;25.4;10.2;70.2;22.6;7.3;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13118;Macul;133;Oriente;257;279;-4;4;0;0;39.8;33.2;27;39.6;29.2;31.2;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13107;Huechuraba;137;Norte;268;288;1;-2;0;0;35.2;27;37.7;36.5;27;36.5;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13108;Independencia;137;Norte;256;259;-2;4;0;0;42.7;31.7;25.6;48.5;35;16.5;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13109;La Cisterna;132;Sur;245;255;2;8;0;1;51.5;30.6;17.9;51.1;34.4;14.5;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13110;La Florida;136;Cordillera;258;271;0;2;0;0;42.3;29.9;27.9;42.9;31.5;25.6;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13111;La granja;132;Sur;242;256;0;-2;0;0;52.8;30.1;17.1;51;32.5;16.6;v12025;20260423;2m;2025
+13;Región metropolitana;131;Santiago;13112;La Pintana;136;Cordillera;239;252;-3;7;0;0;58.5;26.9;14.6;55.3;29.2;15.6;v12025;20260423;2m;2025
+14;Región de los ríos;141;Valdivia;14101;Valdivia;141;Valdivia;252;263;0;6;0;0;46.4;29.2;24.4;46.6;32;21.4;v12025;20260423;2m;2025
+14;Región de los ríos;141;Valdivia;14102;Corral;141;Valdivia;229;236;6;18;0;0;68;16;16;57.1;40.5;2.4;v12025;20260423;2m;2025
+14;Región de los ríos;141;Valdivia;14103;Lanco;141;Valdivia;246;247;6;9;0;0;52.6;28.1;19.3;56.4;30.7;12.9;v12025;20260423;2m;2025
+14;Región de los ríos;141;Valdivia;14104;Los Lagos;141;Valdivia;240;226;18;4;1;0;55.5;28.1;16.4;71.2;25.3;3.4;v12025;20260423;2m;2025
+14;Región de los ríos;141;Valdivia;14105;Máfil;141;Valdivia;228;215;-2;-11;0;0;67;23.1;9.9;78.7;16;5.3;v12025;20260423;2m;2025
+14;Región de los ríos;141;Valdivia;14106;Mariquina;141;Valdivia;238;231;2;0;0;0;58.6;28.7;12.7;70.4;24.4;5.2;v12025;20260423;2m;2025
+14;Región de los ríos;141;Valdivia;14107;Paillaco;141;Valdivia;245;240;4;8;0;0;50.2;29;20.8;59.6;30.4;10;v12025;20260423;2m;2025
+14;Región de los ríos;141;Valdivia;14108;Panguipulli;141;Valdivia;246;257;1;2;0;0;51.2;28.6;20.2;48.7;34.9;16.3;v12025;20260423;2m;2025
+14;Región de los ríos;142;Del Ranco;14201;La Unión;142;Ranco;252;264;-3;-8;0;-1;48.1;31;20.9;44.3;36;19.7;v12025;20260423;2m;2025
+14;Región de los ríos;142;Del Ranco;14202;Futrono;142;Ranco;231;235;4;14;0;1;60.5;26.8;12.7;67.2;25.5;7.4;v12025;20260423;2m;2025
+14;Región de los ríos;142;Del Ranco;14203;Lago Ranco;142;Ranco;256;248;15;2;1;0;43.8;34.7;21.5;56;33.6;10.3;v12025;20260423;2m;2025
+14;Región de los ríos;142;Del Ranco;14204;Río Bueno;142;Ranco;252;248;8;9;0;0;47.7;30.5;21.9;54.1;35.5;10.4;v12025;20260423;2m;2025
+15;Región de arica y par;151;Arica;15101;Arica;151;Arica;253;271;2;-1;0;0;45.7;31.2;23.1;41.3;34.5;24.2;v12025;20260423;2m;2025
+15;Región de arica y par;151;Arica;15102;Camarones;151;Arica;248;243;26;17;0;0;54.5;27.3;18.2;54.5;45.5;0;v12025;20260423;2m;2025
+15;Región de arica y par;152;Parinacota;15201;Putre;152;Parinacota;237;214;-6;-10;0;0;56.3;31.3;12.5;81.3;6.3;12.5;v12025;20260423;2m;2025
+15;Región de arica y par;152;Parinacota;15202;General Lagos;152;Parinacota;;;;;;;;;;;;;v12025;20260423;2m;2025
+16;Región de Ñuble;161;Diguillín;16101;Chillán;161;Diguillín;254;269;1;2;0;0;44.5;31.2;24.3;43.4;33.6;23;v12025;20260423;2m;2025
+16;Región de Ñuble;161;Diguillín;16102;Bulnes;161;Diguillín;232;245;0;9;0;0;61.2;25.9;12.9;57.9;32.4;9.7;v12025;20260423;2m;2025
+16;Región de Ñuble;161;Diguillín;16103;Chillán Viejo;161;Diguillín;241;244;-6;-3;0;0;54.1;32.9;13;58.4;32.1;9.5;v12025;20260423;2m;2025
+16;Región de Ñuble;161;Diguillín;16104;El Carmen;161;Diguillín;235;252;-6;-3;0;0;63.4;23.9;12.7;53.7;33.1;13.2;v12025;20260423;2m;2025
+16;Región de Ñuble;161;Diguillín;16105;Pemuco;161;Diguillín;221;224;-2;6;0;0;66;26.4;7.5;74.1;18.5;7.4;v12025;20260423;2m;2025
+16;Región de Ñuble;161;Diguillín;16106;Pinto;161;Diguillín;228;238;-15;0;-1;0;65.1;25.7;9.2;62.4;27.5;10.1;v12025;20260423;2m;2025
+16;Región de Ñuble;163;Punilla;16303;Ñiquén;161;Diguillín;237;241;6;4;0;0;56.7;30;13.3;63.3;23.3;13.3;v12025;20260423;2m;2025
+16;Región de Ñuble;163;Punilla;16304;San Fabián;161;Diguillín;222;227;-15;-1;-1;0;65.5;27.6;6.9;72.7;18.2;9.1;v12025;20260423;2m;2025
+16;Región de Ñuble;163;Punilla;16305;San Nicolás;161;Diguillín;283;331;-13;-13;-1;-1;22.4;31.8;45.8;8.1;32.4;59.5;v12025;20260423;2m;2025
+16;Región de Ñuble;162;Itata;16204;Ninhue;161;Diguillín;217;231;-23;-8;-1;0;81;8.6;10.3;73.7;22.8;3.5;v12025;20260423;2m;2025
+16;Región de Ñuble;162;Itata;16205;Portezuelo;161;Diguillín;235;265;26;43;1;1;61.1;30.6;8.3;42.5;40;17.5;v12025;20260423;2m;2025
+16;Región de Ñuble;162;Itata;16206;Ránquil;161;Diguillín;246;254;17;13;1;0;58.3;21.7;20;49.2;30.2;20.6;v12025;20260423;2m;2025
+16;Región de Ñuble;162;Itata;16207;Treguaco;161;Diguillín;255;244;13;8;1;0;50;28.8;21.2;57.4;34;8.5;v12025;20260423;2m;2025
+16;Región de Ñuble;163;Punilla;16301;San Carlos;161;Diguillín;249;270;3;3;0;0;49.3;26.4;24.3;45.5;29.4;25.1;v12025;20260423;2m;2025
+16;Región de Ñuble;163;Punilla;16302;Coihueco;161;Diguillín;238;255;-6;3;0;0;54.4;34.4;11.2;47.9;34;18.1;v12025;20260423;2m;2025
+16;Región de Ñuble;161;Diguillín;16107;Quillón;161;Diguillín;235;258;-4;-3;0;0;62.1;27.1;10.7;50;36.5;13.5;v12025;20260423;2m;2025
+16;Región de Ñuble;161;Diguillín;16108;San Ignacio;161;Diguillín;233;255;12;26;1;1;60.8;28;11.2;50;31.9;18.1;v12025;20260423;2m;2025
+16;Región de Ñuble;161;Diguillín;16109;Yungay;161;Diguillín;257;274;16;16;1;1;46.4;34.1;19.4;40.6;32.2;27.2;v12025;20260423;2m;2025
+16;Región de Ñuble;162;Itata;16201;Quirihue;161;Diguillín;246;273;-18;0;-1;0;52;35;13;41.8;35.2;23.1;v12025;20260423;2m;2025
+16;Región de Ñuble;162;Itata;16202;Cobquecura;161;Diguillín;209;212;-23;-18;-1;0;79.3;20.7;0;80.6;16.1;3.2;v12025;20260423;2m;2025
+16;Región de Ñuble;162;Itata;16203;Coelemu;161;Diguillín;247;266;5;25;0;1;49.7;33.9;16.4;38.5;44.1;17.3;v12025;20260423;2m;2025

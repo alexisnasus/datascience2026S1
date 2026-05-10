@@ -1,0 +1,347 @@
+cod_reg;nom_reg;cod_pro;nom_pro;cod_com;nom_com;cod_deprov;nom_deprov;prom_lect6b_com;prom_mate6b_com;dif_lect6b_com;dif_mate6b_com;sigdif_lect6b_com;sigdif_mate6b_com;fecha_bbdd;codigo_bbdd;grado;agno
+1;Región de Tarapacá;11;Iquique;1101;Iquique;11;Iquique;250;244;-5;-11;0;-1;20250422;preliminar20240422v1;6b;2024
+1;Región de Tarapacá;11;Iquique;1107;Alto Hospicio;11;Iquique;240;231;-2;-10;0;-1;20250422;preliminar20240422v1;6b;2024
+1;Región de Tarapacá;14;Tamarugal;1401;Pozo Almonte;14;Tamarugal;238;232;-1;-3;0;0;20250422;preliminar20240422v1;6b;2024
+1;Región de Tarapacá;14;Tamarugal;1402;Camiña;14;Tamarugal;257;247;12;0;0;0;20250422;preliminar20240422v1;6b;2024
+1;Región de Tarapacá;14;Tamarugal;1403;Colchane;14;Tamarugal;217;203;12;-2;0;0;20250422;preliminar20240422v1;6b;2024
+1;Región de Tarapacá;14;Tamarugal;1404;Huara;14;Tamarugal;223;212;-12;-10;-1;0;20250422;preliminar20240422v1;6b;2024
+1;Región de Tarapacá;14;Tamarugal;1405;Pica;14;Tamarugal;224;213;-24;-28;-1;-1;20250422;preliminar20240422v1;6b;2024
+2;Región de Antofagasta;21;Antofagasta;2101;Antofagasta;21;Antofagasta;251;242;3;-5;0;0;20250422;preliminar20240422v1;6b;2024
+2;Región de Antofagasta;21;Antofagasta;2102;Mejillones;21;Antofagasta;230;222;5;-7;0;0;20250422;preliminar20240422v1;6b;2024
+2;Región de Antofagasta;21;Antofagasta;2103;Sierra Gorda;21;Antofagasta;216;218;-27;-10;-1;0;20250422;preliminar20240422v1;6b;2024
+2;Región de Antofagasta;21;Antofagasta;2104;Taltal;21;Antofagasta;239;226;-12;-15;-1;-1;20250422;preliminar20240422v1;6b;2024
+2;Región de Antofagasta;22;El Loa;2201;Calama;22;El Loa;249;240;-2;-9;0;-1;20250422;preliminar20240422v1;6b;2024
+2;Región de Antofagasta;22;El Loa;2202;Ollagüe;22;El Loa;284;271;0;0;0;0;20250422;preliminar20240422v1;6b;2024
+2;Región de Antofagasta;22;El Loa;2203;San Pedro de Atacama;22;El Loa;242;237;-5;-5;0;0;20250422;preliminar20240422v1;6b;2024
+2;Región de Antofagasta;23;Tocopilla;2301;Tocopilla;21;Antofagasta;234;226;2;0;0;0;20250422;preliminar20240422v1;6b;2024
+2;Región de Antofagasta;23;Tocopilla;2302;María Elena;21;Antofagasta;244;229;14;-9;1;0;20250422;preliminar20240422v1;6b;2024
+3;Región de Atacama;31;Copiapó;3101;Copiapó;31;Copiapo - Chanaral;242;233;-4;-10;0;-1;20250422;preliminar20240422v1;6b;2024
+3;Región de Atacama;31;Copiapó;3102;Caldera;31;Copiapo - Chanaral;229;217;-7;-21;0;-1;20250422;preliminar20240422v1;6b;2024
+3;Región de Atacama;31;Copiapó;3103;Tierra Amarilla;31;Copiapo - Chanaral;219;216;0;4;0;0;20250422;preliminar20240422v1;6b;2024
+3;Región de Atacama;32;Chañaral;3201;Chañaral;31;Copiapo - Chanaral;227;212;-14;-16;-1;-1;20250422;preliminar20240422v1;6b;2024
+3;Región de Atacama;32;Chañaral;3202;Diego de Almagro;31;Copiapo - Chanaral;236;229;-14;-24;-1;-1;20250422;preliminar20240422v1;6b;2024
+3;Región de Atacama;33;Huasco;3301;Vallenar;32;Huasco - Vallenar;253;244;6;-2;0;0;20250422;preliminar20240422v1;6b;2024
+3;Región de Atacama;33;Huasco;3302;Alto del Carmen;32;Huasco - Vallenar;226;225;-11;0;0;0;20250422;preliminar20240422v1;6b;2024
+3;Región de Atacama;33;Huasco;3303;Freirina;32;Huasco - Vallenar;232;217;3;-7;0;0;20250422;preliminar20240422v1;6b;2024
+3;Región de Atacama;33;Huasco;3304;Huasco;32;Huasco - Vallenar;229;221;-9;-8;-1;0;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;41;Elqui;4101;La Serena;41;Elqui;252;247;-2;-10;0;-1;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;41;Elqui;4102;Coquimbo;41;Elqui;242;238;-5;-8;0;-1;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;41;Elqui;4103;Andacollo;41;Elqui;263;247;20;4;1;0;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;41;Elqui;4104;La Higuera;41;Elqui;211;214;-20;-7;-1;0;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;41;Elqui;4105;Paihuano;41;Elqui;233;228;4;0;0;0;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;41;Elqui;4106;Vicuña;41;Elqui;239;229;-5;-7;0;0;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;43;Limarí;4303;Monte Patria;42;Limari;243;233;1;-10;0;-1;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;43;Limarí;4304;Punitaqui;42;Limari;250;246;8;12;0;1;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;43;Limarí;4305;Río Hurtado;42;Limari;235;224;-24;-15;-1;-1;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;42;Choapa;4201;Illapel;43;Choapa;245;231;2;-1;0;0;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;42;Choapa;4202;Canela;43;Choapa;249;233;-3;-13;0;-1;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;42;Choapa;4203;Los Vilos;43;Choapa;237;226;-1;-11;0;-1;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;42;Choapa;4204;Salamanca;43;Choapa;248;232;3;-6;0;0;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;43;Limarí;4301;Ovalle;42;Limari;249;240;-5;-10;0;-1;20250422;preliminar20240422v1;6b;2024
+4;Región de Coquimbo;43;Limarí;4302;Combarbalá;42;Limari;256;242;10;10;1;1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;51;Valparaíso;5101;Valparaíso;53;Valparaiso - Isla;239;236;0;-5;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;51;Valparaíso;5102;Casablanca;53;Valparaiso - Isla;245;242;1;-3;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;51;Valparaíso;5103;Concón;53;Valparaiso - Isla;252;257;-10;-6;-1;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;51;Valparaíso;5104;Juan Fernández;53;Valparaiso - Isla;211;221;-21;-7;-1;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;51;Valparaíso;5105;Puchuncaví;53;Valparaiso - Isla;224;220;-7;-8;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;51;Valparaíso;5107;Quintero;53;Valparaiso - Isla;232;230;-13;-14;-1;-1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;58;Marga Marga;5803;Olmué;51;Quillota - Petorca;240;228;10;6;1;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;58;Marga Marga;5804;Villa Alemana;53;Valparaiso - Isla;243;245;-3;-7;0;-1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;57;San Felipe;5703;Llaillay;52;San Felipe - Los A;240;228;-7;-4;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;57;San Felipe;5704;Panquehue;52;San Felipe - Los A;258;253;-4;-6;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;57;San Felipe;5705;Putaendo;52;San Felipe - Los A;226;222;-2;-4;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;57;San Felipe;5706;Santa María;52;San Felipe - Los A;238;225;1;-9;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;58;Marga Marga;5801;Quilpué;53;Valparaiso - Isla;241;239;-8;-12;-1;-1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;58;Marga Marga;5802;Limache;51;Quillota - Petorca;236;234;-3;-3;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;56;San Antonio;5603;Cartagena;54;San Antonio;234;224;-9;-16;-1;-1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;56;San Antonio;5604;El Quisco;54;San Antonio;250;239;9;9;1;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;56;San Antonio;5605;El Tabo;54;San Antonio;234;226;1;4;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;56;San Antonio;5606;Santo Domingo;54;San Antonio;256;248;12;9;1;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;57;San Felipe;5701;San Felipe;52;San Felipe - Los A;249;241;-3;-4;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;57;San Felipe;5702;Catemu;52;San Felipe - Los A;239;234;-3;-4;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;55;Quillota;5502;La Calera;51;Quillota - Petorca;243;235;2;-11;0;-1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;55;Quillota;5503;Hijuelas;51;Quillota - Petorca;231;223;-6;-3;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;55;Quillota;5504;La Cruz;51;Quillota - Petorca;224;222;-10;-10;-1;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;55;Quillota;5506;Nogales;51;Quillota - Petorca;240;231;7;2;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;56;San Antonio;5601;San Antonio;54;San Antonio;243;233;-7;-15;-1;-1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;56;San Antonio;5602;Algarrobo;54;San Antonio;239;231;-9;-7;-1;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;54;Petorca;5401;La Ligua;51;Quillota - Petorca;238;228;-11;-13;-1;-1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;54;Petorca;5402;Cabildo;51;Quillota - Petorca;246;239;-1;-1;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;54;Petorca;5403;Papudo;51;Quillota - Petorca;223;217;-18;-18;-1;-1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;54;Petorca;5404;Petorca;51;Quillota - Petorca;248;232;2;-11;0;-1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;54;Petorca;5405;Zapallar;51;Quillota - Petorca;254;251;4;-1;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;55;Quillota;5501;Quillota;51;Quillota - Petorca;243;241;-6;-13;0;-1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;51;Valparaíso;5109;Viña del Mar;53;Valparaiso - Isla;244;245;-9;-12;-1;-1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;52;Isla de Pas;5201;Isla de Pascua;53;Valparaiso - Isla;240;239;6;14;0;1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;53;Los Andes;5301;Los Andes;52;San Felipe - Los A;250;244;-6;-9;0;-1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;53;Los Andes;5302;Calle Larga;52;San Felipe - Los A;242;233;7;0;0;0;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;53;Los Andes;5303;Rinconada;52;San Felipe - Los A;242;227;2;-21;0;-1;20250422;preliminar20240422v1;6b;2024
+5;Región de Valparaíso;53;Los Andes;5304;San Esteban;52;San Felipe - Los A;240;225;-2;-7;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6101;Rancagua;61;Cachapoal;251;247;-3;-10;0;-1;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6102;Codegua;61;Cachapoal;237;231;-1;3;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6103;Coinco;61;Cachapoal;247;241;13;8;1;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6104;Coltauco;61;Cachapoal;253;245;6;-2;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6105;Doñihue;61;Cachapoal;246;242;-4;-10;0;-1;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6106;Graneros;61;Cachapoal;238;225;7;-2;1;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;63;Colchagua;6308;Placilla;62;Colchagua;258;251;2;-2;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;63;Colchagua;6309;Pumanque;62;Colchagua;223;231;-41;-27;-1;-1;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;63;Colchagua;6310;Santa Cruz;62;Colchagua;259;262;-5;-10;0;-1;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;63;Colchagua;6302;Chépica;62;Colchagua;245;242;1;-4;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;63;Colchagua;6303;Chimbarongo;62;Colchagua;241;239;-8;-7;-1;-1;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;63;Colchagua;6304;Lolol;62;Colchagua;251;251;9;8;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;63;Colchagua;6305;Nancagua;62;Colchagua;250;239;5;-7;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;63;Colchagua;6306;Palmilla;62;Colchagua;235;225;6;0;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;63;Colchagua;6307;Peralillo;62;Colchagua;235;233;-14;-8;-1;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;62;Cardenal Ca;6202;La Estrella;63;Cardenal Caro;254;244;28;1;1;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;62;Cardenal Ca;6203;Litueche;63;Cardenal Caro;234;230;-6;-13;0;-1;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;62;Cardenal Ca;6204;Marchihue;63;Cardenal Caro;242;228;15;-1;1;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;62;Cardenal Ca;6205;Navidad;63;Cardenal Caro;237;231;-8;-8;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;62;Cardenal Ca;6206;Paredones;63;Cardenal Caro;252;249;5;17;0;1;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;63;Colchagua;6301;San Fernando;62;Colchagua;249;237;3;-5;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6113;Pichidegua;61;Cachapoal;237;234;-8;-11;0;-1;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6114;Quinta de Tilcoco;61;Cachapoal;241;233;-3;-6;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6115;Rengo;61;Cachapoal;244;237;-1;-8;0;-1;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6116;Requínoa;61;Cachapoal;243;232;9;3;1;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6117;San Vicente;61;Cachapoal;241;238;-5;-6;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;62;Cardenal Ca;6201;Pichilemu;63;Cardenal Caro;243;238;-15;-12;-1;-1;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6107;Las Cabras;61;Cachapoal;230;226;-11;-11;-1;-1;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6108;Machalí;61;Cachapoal;265;270;3;-1;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6109;Malloa;61;Cachapoal;252;234;4;-19;0;-1;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6110;Mostazal;61;Cachapoal;238;236;6;7;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6111;Olivar;61;Cachapoal;244;233;4;-2;0;0;20250422;preliminar20240422v1;6b;2024
+6;Región del Libertador;61;Cachapoal;6112;Peumo;61;Cachapoal;239;238;-3;2;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;71;Talca;7101;Talca;72;Talca;255;250;1;-6;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;71;Talca;7102;Constitución;72;Talca;257;259;-3;-16;0;-1;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;71;Talca;7103;Curepto;72;Talca;258;261;1;-13;0;-1;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;71;Talca;7104;Empedrado;72;Talca;241;236;4;-5;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;71;Talca;7105;Maule;72;Talca;260;259;5;1;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;71;Talca;7106;Pelarco;72;Talca;234;233;-13;-5;-1;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;74;Linares;7403;Longaví;73;Linares;236;229;0;-9;0;-1;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;74;Linares;7404;Parral;73;Linares;254;252;2;6;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;74;Linares;7405;Retiro;73;Linares;232;230;-11;-1;-1;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;74;Linares;7406;San Javier;73;Linares;251;250;0;-4;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;74;Linares;7407;Villa Alegre;73;Linares;235;230;8;4;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;74;Linares;7408;Yerbas Buenas;73;Linares;246;240;1;-6;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;73;Curicó;7306;Romeral;71;Curico;263;255;8;2;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;73;Curicó;7307;Sagrada Familia;71;Curico;251;248;8;5;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;73;Curicó;7308;Teno;71;Curico;239;234;-10;-17;-1;-1;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;73;Curicó;7309;Vichuquén;71;Curico;255;244;25;-1;1;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;74;Linares;7401;Linares;73;Linares;252;247;-6;-10;0;-1;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;74;Linares;7402;Colbún;73;Linares;234;227;5;-2;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;72;Cauquenes;7203;Pelluhue;74;Cauquenes;239;226;-4;-24;0;-1;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;73;Curicó;7301;Curicó;71;Curico;258;254;-1;-7;0;-1;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;73;Curicó;7302;Hualañé;71;Curico;256;250;11;-10;1;-1;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;73;Curicó;7303;Licantén;71;Curico;255;262;4;8;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;73;Curicó;7304;Molina;71;Curico;246;242;5;8;0;1;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;73;Curicó;7305;Rauco;71;Curico;242;231;-8;-10;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;71;Talca;7107;Pencahue;72;Talca;239;228;3;0;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;71;Talca;7108;Río Claro;72;Talca;236;231;1;-10;0;-1;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;71;Talca;7109;San Clemente;72;Talca;239;243;-4;4;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;71;Talca;7110;San Rafael;72;Talca;246;242;8;10;0;0;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;72;Cauquenes;7201;Cauquenes;74;Cauquenes;248;243;-11;-13;-1;-1;20250422;preliminar20240422v1;6b;2024
+7;Región del Maule;72;Cauquenes;7202;Chanco;74;Cauquenes;257;250;21;13;1;1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;81;Concepción;8101;Concepción;83;Concepcion;252;251;-6;-12;0;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;81;Concepción;8102;Coronel;83;Concepcion;242;236;0;-8;0;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;81;Concepción;8103;Chiguayante;83;Concepcion;256;258;1;-4;0;0;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;81;Concepción;8104;Florida;83;Concepcion;233;232;-7;0;0;0;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;81;Concepción;8105;Hualqui;83;Concepcion;239;231;-4;-6;0;0;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;81;Concepción;8106;Lota;83;Concepcion;231;230;-22;-16;-1;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;83;Biobío;8312;Tucapel;82;Bio Bio;241;221;-8;-12;0;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;83;Biobío;8313;Yumbel;82;Bio Bio;245;236;5;-10;0;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;83;Biobío;8314;Alto Biobío;82;Bio Bio;222;197;-1;-9;0;0;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;83;Biobío;8306;Nacimiento;82;Bio Bio;245;236;-8;-23;-1;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;83;Biobío;8307;Negrete;82;Bio Bio;263;242;15;-24;1;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;83;Biobío;8308;Quilaco;82;Bio Bio;216;205;-19;-25;-1;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;83;Biobío;8309;Quilleco;82;Bio Bio;225;216;-7;-21;0;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;83;Biobío;8310;San Rosendo;82;Bio Bio;244;241;-13;-4;0;0;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;83;Biobío;8311;Santa Bárbara;82;Bio Bio;255;244;15;11;1;1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;82;Arauco;8207;Tirúa;84;Arauco;229;221;-13;-13;-1;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;83;Biobío;8301;Los Ángeles;82;Bio Bio;248;245;-4;-7;0;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;83;Biobío;8302;Antuco;82;Bio Bio;247;219;9;-13;0;0;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;83;Biobío;8303;Cabrero;82;Bio Bio;248;236;5;-6;0;0;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;83;Biobío;8304;Laja;82;Bio Bio;245;244;-8;-19;-1;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;83;Biobío;8305;Mulchén;82;Bio Bio;238;236;-6;2;0;0;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;82;Arauco;8201;Lebu;84;Arauco;249;233;-4;-11;0;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;82;Arauco;8202;Arauco;84;Arauco;247;245;-5;-7;0;0;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;82;Arauco;8203;Cañete;84;Arauco;255;245;-1;-4;0;0;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;82;Arauco;8204;Contulmo;84;Arauco;259;247;13;17;1;1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;82;Arauco;8205;Curanilahue;84;Arauco;242;237;-7;-13;0;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;82;Arauco;8206;Los Álamos;84;Arauco;232;229;-7;-8;0;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;81;Concepción;8107;Penco;83;Concepcion;251;244;1;-1;0;0;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;81;Concepción;8108;San Pedro de la Paz;83;Concepcion;256;255;6;-1;1;0;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;81;Concepción;8109;Santa Juana;83;Concepcion;240;237;-7;-6;0;0;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;81;Concepción;8110;Talcahuano;83;Concepcion;252;246;4;0;0;0;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;81;Concepción;8111;Tomé;83;Concepcion;247;238;-4;-16;0;-1;20250422;preliminar20240422v1;6b;2024
+8;Región del Biobío;81;Concepción;8112;Hualpén;83;Concepcion;249;245;-4;-7;0;-1;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9101;Temuco;92;Cautin Norte;250;247;-8;-12;-1;-1;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9102;Carahue;92;Cautin Norte;242;229;2;1;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9103;Cunco;92;Cautin Norte;246;238;3;8;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9104;Curarrehue;93;Cautin Sur;243;236;0;5;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9105;Freire;93;Cautin Sur;240;229;-7;-4;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9106;Galvarino;92;Cautin Norte;225;217;-1;1;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;92;Malleco;9210;Traiguén;91;Malleco;242;235;-4;-14;0;-1;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;92;Malleco;9211;Victoria;91;Malleco;240;230;1;-3;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;92;Malleco;9204;Ercilla;91;Malleco;225;226;-13;5;-1;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;92;Malleco;9205;Lonquimay;91;Malleco;234;226;2;7;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;92;Malleco;9206;Los Sauces;91;Malleco;251;228;-7;-18;0;-1;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;92;Malleco;9207;Lumaco;91;Malleco;235;227;4;0;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;92;Malleco;9208;Purén;91;Malleco;240;237;-13;-6;-1;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;92;Malleco;9209;Renaico;91;Malleco;252;241;6;-4;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9119;Vilcún;92;Cautin Norte;242;233;-1;-3;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9120;Villarrica;93;Cautin Sur;249;242;-7;-5;-1;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9121;Cholchol;92;Cautin Norte;236;219;-2;0;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;92;Malleco;9201;Angol;91;Malleco;250;253;-1;1;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;92;Malleco;9202;Collipulli;91;Malleco;233;223;-3;-6;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;92;Malleco;9203;Curacautín;91;Malleco;231;230;5;5;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9113;Perquenco;92;Cautin Norte;241;230;6;5;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9114;Pitrufquén;93;Cautin Sur;252;249;2;1;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9115;Pucón;93;Cautin Sur;254;241;-1;-10;0;-1;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9116;Saavedra;92;Cautin Norte;235;221;1;-4;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9117;Teodoro Schmidt;93;Cautin Sur;239;229;-4;-3;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9118;Toltén;93;Cautin Sur;239;235;1;6;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9107;Gorbea;93;Cautin Sur;227;225;-8;-8;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9108;Lautaro;92;Cautin Norte;239;231;0;1;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9109;Loncoche;93;Cautin Sur;236;226;-14;-11;-1;-1;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9110;Melipeuco;92;Cautin Norte;227;220;-5;3;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9111;Nueva Imperial;92;Cautin Norte;236;231;-3;-7;0;0;20250422;preliminar20240422v1;6b;2024
+9;Región de La Araucaní;91;Cautín;9112;Padre las Casas;93;Cautin Sur;238;231;-10;-8;-1;-1;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;101;Llanquihue;10101;Puerto Montt;101;Llanquihue;249;244;-4;-10;0;-1;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;101;Llanquihue;10102;Calbuco;101;Llanquihue;247;241;7;5;1;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;101;Llanquihue;10103;Cochamó;101;Llanquihue;256;242;19;8;1;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;101;Llanquihue;10104;Fresia;101;Llanquihue;229;216;-16;-20;-1;-1;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;101;Llanquihue;10105;Frutillar;101;Llanquihue;249;244;5;2;0;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;101;Llanquihue;10106;Los Muermos;101;Llanquihue;232;226;-3;-12;0;-1;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;103;Osorno;10306;San Juan de la Costa;103;Osorno;258;237;25;11;1;1;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;103;Osorno;10307;San Pablo;103;Osorno;239;221;6;-6;0;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;104;Palena;10401;Chaitén;104;Palena;234;235;13;15;1;1;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;104;Palena;10402;Futaleufú;104;Palena;241;245;16;1;1;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;104;Palena;10403;Hualaihué;101;Llanquihue;246;232;0;-2;0;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;104;Palena;10404;Palena;104;Palena;248;245;9;-4;0;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;102;Chiloé;10210;Quinchao;102;Chiloe;261;241;0;-23;0;-1;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;103;Osorno;10301;Osorno;103;Osorno;255;251;1;-9;0;-1;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;103;Osorno;10302;Puerto Octay;103;Osorno;243;231;5;-9;0;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;103;Osorno;10303;Purranque;103;Osorno;244;235;-7;-7;0;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;103;Osorno;10304;Puyehue;103;Osorno;231;218;3;0;0;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;103;Osorno;10305;Río Negro;103;Osorno;219;219;-11;-10;-1;-1;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;102;Chiloé;10204;Curaco de Vélez;102;Chiloe;251;236;8;-2;0;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;102;Chiloé;10205;Dalcahue;102;Chiloe;252;247;4;1;0;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;102;Chiloé;10206;Puqueldón;102;Chiloe;265;250;4;-21;0;-1;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;102;Chiloé;10207;Queilén;102;Chiloe;239;231;-13;-12;-1;-1;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;102;Chiloé;10208;Quellón;102;Chiloe;237;225;2;-5;0;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;102;Chiloé;10209;Quemchi;102;Chiloe;248;242;7;4;0;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;101;Llanquihue;10107;Llanquihue;101;Llanquihue;236;233;-9;-1;-1;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;101;Llanquihue;10108;Maullín;101;Llanquihue;243;232;4;2;0;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;101;Llanquihue;10109;Puerto Varas;101;Llanquihue;256;256;-4;-11;0;-1;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;102;Chiloé;10201;Castro;102;Chiloe;247;244;-6;-8;0;-1;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;102;Chiloé;10202;Ancud;102;Chiloe;248;246;3;-2;0;0;20250422;preliminar20240422v1;6b;2024
+10;Región de Los Lagos;102;Chiloé;10203;Chonchi;102;Chiloe;258;238;22;1;1;0;20250422;preliminar20240422v1;6b;2024
+11;Región de Aysén del G;111;Coyhaique;11101;Coyhaique;111;Coyhaique;248;241;1;-1;0;0;20250422;preliminar20240422v1;6b;2024
+11;Región de Aysén del G;111;Coyhaique;11102;Lago Verde;111;Coyhaique;238;240;0;0;0;0;20250422;preliminar20240422v1;6b;2024
+11;Región de Aysén del G;112;Aysén;11201;Aysén;111;Coyhaique;257;245;16;1;1;0;20250422;preliminar20240422v1;6b;2024
+11;Región de Aysén del G;112;Aysén;11202;Cisnes;111;Coyhaique;234;222;-11;-16;-1;-1;20250422;preliminar20240422v1;6b;2024
+11;Región de Aysén del G;112;Aysén;11203;Guaitecas;111;Coyhaique;249;250;1;19;0;0;20250422;preliminar20240422v1;6b;2024
+11;Región de Aysén del G;113;Capitán Pra;11301;Cochrane;111;Coyhaique;239;235;2;-2;0;0;20250422;preliminar20240422v1;6b;2024
+11;Región de Aysén del G;113;Capitán Pra;11302;O'higgins;111;Coyhaique;215;226;27;18;1;0;20250422;preliminar20240422v1;6b;2024
+11;Región de Aysén del G;113;Capitán Pra;11303;Tortel;111;Coyhaique;244;253;-20;-10;0;0;20250422;preliminar20240422v1;6b;2024
+11;Región de Aysén del G;114;General Car;11401;Chile Chico;111;Coyhaique;239;226;8;-9;0;0;20250422;preliminar20240422v1;6b;2024
+11;Región de Aysén del G;114;General Car;11402;Río Ibáñez;111;Coyhaique;241;238;16;18;1;1;20250422;preliminar20240422v1;6b;2024
+12;Región de Magallanes;121;Magallanes;12101;Punta Arenas;121;Magallanes;251;248;-2;-3;0;0;20250422;preliminar20240422v1;6b;2024
+12;Región de Magallanes;121;Magallanes;12102;Laguna Blanca;121;Magallanes;281;269;0;0;0;0;20250422;preliminar20240422v1;6b;2024
+12;Región de Magallanes;121;Magallanes;12103;Río Verde;121;Magallanes;274;274;0;0;0;0;20250422;preliminar20240422v1;6b;2024
+12;Región de Magallanes;121;Magallanes;12104;San Gregorio;121;Magallanes;328;299;0;0;0;0;20250422;preliminar20240422v1;6b;2024
+12;Región de Magallanes;122;Antártica C;12201;Cabo de Hornos;121;Magallanes;244;245;9;15;0;1;20250422;preliminar20240422v1;6b;2024
+12;Región de Magallanes;122;Antártica C;12202;Antártica;121;Magallanes;;;;;;;20250422;preliminar20240422v1;6b;2024
+12;Región de Magallanes;123;Tierra del;12301;Porvenir;121;Magallanes;237;227;-3;-13;0;-1;20250422;preliminar20240422v1;6b;2024
+12;Región de Magallanes;123;Tierra del;12302;Primavera;121;Magallanes;200;204;0;0;0;0;20250422;preliminar20240422v1;6b;2024
+12;Región de Magallanes;123;Tierra del;12303;Timaukel;121;Magallanes;280;239;0;0;0;0;20250422;preliminar20240422v1;6b;2024
+12;Región de Magallanes;124;Última Espe;12401;Natales;121;Magallanes;241;240;-3;1;0;0;20250422;preliminar20240422v1;6b;2024
+12;Región de Magallanes;124;Última Espe;12402;Torres del Paine;121;Magallanes;289;246;0;0;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13101;Santiago;131;Centro;259;254;2;-5;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13102;Cerrillos;134;Poniente;239;235;1;-4;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13103;Cerro Navia;134;Poniente;237;232;-3;-5;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13104;Conchalí;137;Norte;252;242;13;5;1;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13105;El Bosque;132;Sur;249;240;8;-5;1;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13106;Estación Central;134;Poniente;245;235;2;-9;0;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;136;Talagante;13602;El Monte;135;Talagante;239;228;11;3;1;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;136;Talagante;13603;Isla de Maipo;135;Talagante;238;235;2;2;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;136;Talagante;13604;Padre Hurtado;135;Talagante;252;244;7;-1;1;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;136;Talagante;13605;Peñaflor;135;Talagante;248;239;4;-2;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;135;Melipilla;13501;Melipilla;135;Talagante;250;243;3;-5;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;135;Melipilla;13502;Alhué;135;Talagante;226;224;-2;-3;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;135;Melipilla;13503;Curacaví;135;Talagante;242;241;-4;-3;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;135;Melipilla;13504;María Pinto;135;Talagante;235;231;7;2;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;135;Melipilla;13505;San Pedro;135;Talagante;247;240;-16;-16;-1;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;136;Talagante;13601;Talagante;135;Talagante;254;259;-3;-3;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;133;Chacabuco;13302;Lampa;137;Norte;248;242;6;-3;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;133;Chacabuco;13303;Tiltil;137;Norte;227;220;-13;-14;-1;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;134;Maipo;13401;San Bernardo;132;Sur;245;239;5;-3;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;134;Maipo;13402;Buin;132;Sur;246;242;5;0;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;134;Maipo;13403;Calera de Tango;132;Sur;247;250;0;2;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;134;Maipo;13404;Paine;132;Sur;244;240;-2;-9;0;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13131;San Ramón;132;Sur;252;244;1;-13;0;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13132;Vitacura;133;Oriente;285;302;2;1;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;132;Cordillera;13201;Puente Alto;136;Cordillera;249;246;-3;-11;0;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;132;Cordillera;13202;Pirque;136;Cordillera;245;242;5;1;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;132;Cordillera;13203;San José de Maipo;136;Cordillera;238;229;3;-5;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;133;Chacabuco;13301;Colina;137;Norte;261;265;1;-7;0;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13125;Quilicura;137;Norte;253;253;0;-9;0;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13126;Quinta Normal;134;Poniente;247;239;2;-7;0;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13127;Recoleta;137;Norte;245;236;-3;-11;0;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13128;Renca;134;Poniente;244;239;0;-5;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13129;San Joaquín;131;Centro;247;239;3;-2;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13130;San Miguel;131;Centro;266;260;9;0;1;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13119;Maipú;134;Poniente;252;248;0;-11;0;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13120;Ñuñoa;133;Oriente;268;270;3;-5;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13121;Pedro Aguirre Cerda;131;Centro;243;236;-3;-8;0;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13122;Peñalolén;133;Oriente;254;253;7;1;1;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13123;Providencia;133;Oriente;278;287;3;1;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13124;Pudahuel;134;Poniente;248;241;0;-11;0;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13113;La Reina;133;Oriente;271;278;1;-3;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13114;Las Condes;133;Oriente;281;293;1;-2;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13115;Lo Barnechea;133;Oriente;280;292;9;3;1;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13116;Lo Espejo;132;Sur;245;231;9;0;1;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13117;Lo Prado;134;Poniente;246;239;7;0;1;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13118;Macul;133;Oriente;256;251;1;-6;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13107;Huechuraba;137;Norte;256;258;-1;-8;0;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13108;Independencia;137;Norte;255;246;6;-3;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13109;La Cisterna;132;Sur;253;245;8;-8;1;-1;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13110;La Florida;136;Cordillera;255;251;2;-5;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13111;La granja;132;Sur;246;240;3;-4;0;0;20250422;preliminar20240422v1;6b;2024
+13;Región metropolitana;131;Santiago;13112;La Pintana;136;Cordillera;242;233;6;-6;0;0;20250422;preliminar20240422v1;6b;2024
+14;Región de los ríos;141;Valdivia;14101;Valdivia;141;Valdivia;250;250;-8;-7;-1;-1;20250422;preliminar20240422v1;6b;2024
+14;Región de los ríos;141;Valdivia;14102;Corral;141;Valdivia;219;224;-39;-13;-1;-1;20250422;preliminar20240422v1;6b;2024
+14;Región de los ríos;141;Valdivia;14103;Lanco;141;Valdivia;239;230;-5;-7;0;0;20250422;preliminar20240422v1;6b;2024
+14;Región de los ríos;141;Valdivia;14104;Los Lagos;141;Valdivia;245;228;11;-3;1;0;20250422;preliminar20240422v1;6b;2024
+14;Región de los ríos;141;Valdivia;14105;Máfil;141;Valdivia;232;231;-8;-1;0;0;20250422;preliminar20240422v1;6b;2024
+14;Región de los ríos;141;Valdivia;14106;Mariquina;141;Valdivia;243;230;7;-5;0;0;20250422;preliminar20240422v1;6b;2024
+14;Región de los ríos;141;Valdivia;14107;Paillaco;141;Valdivia;236;231;-20;-16;-1;-1;20250422;preliminar20240422v1;6b;2024
+14;Región de los ríos;141;Valdivia;14108;Panguipulli;141;Valdivia;243;230;-6;-5;0;0;20250422;preliminar20240422v1;6b;2024
+14;Región de los ríos;142;Del Ranco;14201;La Unión;142;Ranco;253;246;1;-2;0;0;20250422;preliminar20240422v1;6b;2024
+14;Región de los ríos;142;Del Ranco;14202;Futrono;142;Ranco;239;235;-5;3;0;0;20250422;preliminar20240422v1;6b;2024
+14;Región de los ríos;142;Del Ranco;14203;Lago Ranco;142;Ranco;243;231;0;-8;0;0;20250422;preliminar20240422v1;6b;2024
+14;Región de los ríos;142;Del Ranco;14204;Río Bueno;142;Ranco;245;239;-2;1;0;0;20250422;preliminar20240422v1;6b;2024
+15;Región de arica y par;151;Arica;15101;Arica;151;Arica;250;245;-6;-11;0;-1;20250422;preliminar20240422v1;6b;2024
+15;Región de arica y par;151;Arica;15102;Camarones;151;Arica;207;219;-19;0;0;0;20250422;preliminar20240422v1;6b;2024
+15;Región de arica y par;152;Parinacota;15201;Putre;152;Parinacota;241;243;37;38;1;1;20250422;preliminar20240422v1;6b;2024
+15;Región de arica y par;152;Parinacota;15202;General Lagos;152;Parinacota;196;196;0;0;0;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;161;Diguillín;16101;Chillán;161;Diguillín;253;247;1;-8;0;-1;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;161;Diguillín;16102;Bulnes;161;Diguillín;236;229;-4;-8;0;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;161;Diguillín;16103;Chillán Viejo;161;Diguillín;254;240;11;-1;1;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;161;Diguillín;16104;El Carmen;161;Diguillín;244;237;-1;1;0;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;161;Diguillín;16105;Pemuco;161;Diguillín;236;221;18;-5;1;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;161;Diguillín;16106;Pinto;161;Diguillín;250;234;12;8;1;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;163;Punilla;16303;Ñiquén;161;Diguillín;231;238;-10;-3;-1;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;163;Punilla;16304;San Fabián;161;Diguillín;235;236;-3;4;0;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;163;Punilla;16305;San Nicolás;161;Diguillín;275;292;8;16;0;1;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;162;Itata;16204;Ninhue;161;Diguillín;238;238;-6;-15;0;-1;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;162;Itata;16205;Portezuelo;161;Diguillín;230;230;-9;-8;0;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;162;Itata;16206;Ránquil;161;Diguillín;245;241;-1;0;0;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;162;Itata;16207;Treguaco;161;Diguillín;246;229;2;-9;0;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;163;Punilla;16301;San Carlos;161;Diguillín;247;246;-7;-9;-1;-1;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;163;Punilla;16302;Coihueco;161;Diguillín;250;248;7;7;1;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;161;Diguillín;16107;Quillón;161;Diguillín;251;236;-1;-15;0;-1;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;161;Diguillín;16108;San Ignacio;161;Diguillín;234;231;-3;-3;0;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;161;Diguillín;16109;Yungay;161;Diguillín;249;243;-17;-10;-1;-1;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;162;Itata;16201;Quirihue;161;Diguillín;234;234;-7;-5;0;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;162;Itata;16202;Cobquecura;161;Diguillín;246;236;1;-3;0;0;20250422;preliminar20240422v1;6b;2024
+16;Región de Ñuble;162;Itata;16203;Coelemu;161;Diguillín;246;239;-11;-7;-1;0;20250422;preliminar20240422v1;6b;2024

@@ -1,0 +1,45 @@
+agno|codigo_bbdd|fecha_bbdd|grado|cod_reg|nom_reg|cod_deprov|nom_deprov|prom_lect8b_deprov|prom_mate8b_deprov|prom_nat8b_deprov|dif_lect8b_deprov|dif_mate8b_deprov|dif_nat8b_deprov|sigdif_lect8b_deprov|sigdif_mate8b_deprov|sigdif_nat8b_deprov
+2017|final20180916v1|20180916|8b|1|REGIÓN DE TARAPACÁ|11|IQUIQUE|241|254|252|1|-3|-8|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|1|REGIÓN DE TARAPACÁ|14|TAMARUGAL|230|234|236|8|1|-2|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|2|REGIÓN DE ANTOFAGASTA|21|ANTOFAGASTA|243|252|252|4|-3|-7|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|2|REGIÓN DE ANTOFAGASTA|22|EL LOA|246|256|256|3|0|-4|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|3|REGIÓN DE ATACAMA|31|COPIAPÓ - CHAÑARAL|238|246|250|3|-4|-4|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|3|REGIÓN DE ATACAMA|32|HUASCO|243|245|249|1|-4|-5|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|4|REGIÓN DE COQUIMBO|41|ELQUI|246|260|260|4|1|-4|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|4|REGIÓN DE COQUIMBO|42|LIMARÍ|244|251|257|0|-2|-2|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|4|REGIÓN DE COQUIMBO|43|CHOAPA|239|242|251|4|-4|-5|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|5|REGIÓN DE VALPARAÍSO|51|QUILLOTA - PETORCA|240|253|252|0|-4|-10|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|5|REGIÓN DE VALPARAÍSO|52|SAN FELIPE - LOS ANDES|243|254|257|1|-3|-6|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|5|REGIÓN DE VALPARAÍSO|53|VALPARAÍSO|243|262|259|2|-3|-7|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|5|REGIÓN DE VALPARAÍSO|54|SAN ANTONIO|242|250|250|2|-3|-5|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|6|REGIÓN DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS|61|CACHAPOAL|243|256|258|-4|-6|-10|No significativa|Negativa y significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|6|REGIÓN DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS|62|COLCHAGUA|246|258|260|-3|-1|-5|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|6|REGIÓN DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS|63|CARDENAL CARO|244|250|253|0|-2|-7|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|7|REGIÓN DEL MAULE|71|CURICÓ|249|264|264|-2|-4|-9|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|7|REGIÓN DEL MAULE|72|TALCA|244|263|259|-5|-4|-10|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|7|REGIÓN DEL MAULE|73|LINARES|245|256|256|-6|-7|-12|Negativa y significativa|Negativa y significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|7|REGIÓN DEL MAULE|74|CAUQUENES|241|254|255|7|3|0|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|8|REGIÓN DEL BIOBÍO|81|ÑUBLE|243|257|257|-1|-3|-8|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|8|REGIÓN DEL BIOBÍO|82|BIOBÍO|241|256|254|0|-3|-8|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|8|REGIÓN DEL BIOBÍO|83|CONCEPCIÓN|244|261|259|2|-4|-7|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|8|REGIÓN DEL BIOBÍO|84|ARAUCO|239|249|248|-3|-5|-5|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|9|REGIÓN DE LA ARAUCANÍA|91|MALLECO|238|243|250|1|-4|-4|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|9|REGIÓN DE LA ARAUCANÍA|92|CAUTÍN NORTE|242|253|256|-1|-4|-8|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|9|REGIÓN DE LA ARAUCANÍA|93|CAUTÍN SUR|243|248|254|-2|-5|-7|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|10|REGIÓN DE LOS LAGOS|101|LLANQUIHUE|242|256|256|-3|-2|-9|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|10|REGIÓN DE LOS LAGOS|102|CHILOÉ|244|251|252|-1|-5|-7|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|10|REGIÓN DE LOS LAGOS|103|OSORNO|248|260|260|0|-2|-5|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|10|REGIÓN DE LOS LAGOS|104|PALENA|232|241|251|-13|-18|-13|Negativa y significativa|Negativa y significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|11|REGIÓN DE AISÉN DEL GENERAL CARLOS IBÁÑEZ DEL CAMPO|111|COYHAIQUE|241|259|255|2|-2|-9|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|12|REGIÓN DE MAGALLANES Y DE LA ANTÁRTICA CHILENA|121|MAGALLANES|245|258|256|5|-1|-6|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|13|REGIÓN METROPOLITANA|131|SANTIAGO CENTRO|251|270|267|1|-4|-9|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|13|REGIÓN METROPOLITANA|132|SANTIAGO SUR|237|254|252|2|-2|-7|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|13|REGIÓN METROPOLITANA|133|SANTIAGO ORIENTE|263|292|283|3|0|-8|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|13|REGIÓN METROPOLITANA|134|SANTIAGO PONIENTE|241|259|256|1|-4|-8|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|13|REGIÓN METROPOLITANA|135|TALAGANTE|240|254|254|1|-4|-8|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|13|REGIÓN METROPOLITANA|136|CORDILLERA|241|261|258|3|-4|-8|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|13|REGIÓN METROPOLITANA|137|SANTIAGO NORTE|243|263|258|-1|-2|-6|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|14|REGIÓN DE LOS RÍOS|141|VALDIVIA|244|252|256|-2|-5|-9|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|14|REGIÓN DE LOS RÍOS|142|RANCO|245|255|255|-4|2|-5|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|15|REGIÓN ARICA - PARINACOTA|151|ARICA|243|264|257|-5|-4|-11|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|15|REGIÓN ARICA - PARINACOTA|152|PARINACOTA|217|224|235|3|-8|13|No significativa|No significativa|No significativa

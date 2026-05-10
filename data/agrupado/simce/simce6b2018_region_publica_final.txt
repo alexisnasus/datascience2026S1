@@ -1,0 +1,17 @@
+agno|grado|cod_reg|nom_reg|prom_lect6b_reg|prom_mate6b_reg|prom_nat6b_reg|dif_lect6b_reg|dif_mate6b_reg|dif_nat6b_reg|sigdif_lect6b_reg|sigdif_mate6b_reg|sigdif_nat6b_reg|fecha_bbdd|codigo_bbdd
+2018|6b|1|Región de Tarapacá|249|248|248|7|3|2|1|0|0|20190628|final20190628v1
+2018|6b|2|Región de Antofagasta|248|246|247|0|-1|3|0|0|0|20190628|final20190628v1
+2018|6b|3|Región de Atacama|244|241|242|5|4|2|0|0|0|20190628|final20190628v1
+2018|6b|4|Región de Coquimbo|249|248|251|0|-1|3|0|0|0|20190628|final20190628v1
+2018|6b|5|Región de Valparaíso|247|247|248|1|-1|-2|0|0|0|20190628|final20190628v1
+2018|6b|6|Región del Libertador Bernardo O'higgins|248|249|251|1|0|2|0|0|0|20190628|final20190628v1
+2018|6b|7|Región del Maule|252|252|254|0|-2|1|0|0|0|20190628|final20190628v1
+2018|6b|8|Región del Biobío|250|251|252|1|0|3|0|0|0|20190628|final20190628v1
+2018|6b|9|Región de La Araucanía|248|243|250|-1|0|3|0|0|0|20190628|final20190628v1
+2018|6b|10|Región de Los Lagos|249|249|250|0|1|1|0|0|0|20190628|final20190628v1
+2018|6b|11|Región de Aysén del General Carlos Ibañez del Campo|243|241|245|0|-2|-3|0|0|0|20190628|final20190628v1
+2018|6b|12|Región de Magallanes y de la Antártica Chilena|251|248|251|2|-1|0|0|0|0|20190628|final20190628v1
+2018|6b|13|Región metropolitana de santiago|251|255|256|1|-2|4|0|0|0|20190628|final20190628v1
+2018|6b|14|Región de los ríos|250|246|252|1|-1|4|0|0|0|20190628|final20190628v1
+2018|6b|15|Región de arica y parinacota|255|256|253|6|3|7|1|0|1|20190628|final20190628v1
+2018|6b|16|Región de Ñuble|249|249|252|-1|-2|1|0|0|0|20190628|final20190628v1

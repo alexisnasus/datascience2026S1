@@ -1,0 +1,18 @@
+# Entornos virtuales de Python
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Datos (Para evitar subir gigas de información)
+data/raw/
+
+# Excepciones (qué cosas SÍ subir)
+!data/processed/
+# Comentar la línea de arriba y dejarla normal si no quieres subir NADA de datos, ni siquiera los procesados.
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store

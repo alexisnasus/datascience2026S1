@@ -1,0 +1,16 @@
+agno|codigo_bbdd|fecha_bbdd|grado|cod_reg|nom_reg|prom_lect8b_reg|prom_mate8b_reg|prom_nat8b_reg|dif_lect8b_reg|dif_mate8b_reg|dif_nat8b_reg|sigdif_lect8b_reg|sigdif_mate8b_reg|sigdif_nat8b_reg
+2017|final20180916v1|20180916|8b|1|REGIÓN DE TARAPACÁ|240|253|251|1|-2|-7|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|2|REGIÓN DE ANTOFAGASTA|244|253|253|4|-2|-6|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|3|REGIÓN DE ATACAMA|240|246|250|4|-4|-4|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|4|REGIÓN DE COQUIMBO|244|256|258|2|0|-4|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|5|REGIÓN DE VALPARAÍSO|242|258|256|2|-3|-7|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|6|REGIÓN DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS|243|257|258|-4|-4|-9|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|7|REGIÓN DEL MAULE|246|261|259|-3|-5|-10|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|8|REGIÓN DEL BIOBÍO|243|258|256|1|-4|-8|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|9|REGIÓN DE LA ARAUCANÍA|241|250|254|0|-4|-7|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|10|REGIÓN DE LOS LAGOS|244|256|256|-2|-3|-8|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|11|REGIÓN DE AISÉN DEL GENERAL CARLOS IBÁÑEZ DEL CAMPO|241|259|255|2|-2|-9|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|12|REGIÓN DE MAGALLANES Y DE LA ANTÁRTICA CHILENA|245|258|256|5|-1|-6|No significativa|No significativa|No significativa
+2017|final20180916v1|20180916|8b|13|REGIÓN METROPOLITANA|246|266|262|2|-3|-7|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|14|REGIÓN DE LOS RÍOS|244|253|256|-3|-4|-8|No significativa|No significativa|Negativa y significativa
+2017|final20180916v1|20180916|8b|15|REGIÓN ARICA - PARINACOTA|242|263|257|-5|-5|-12|No significativa|No significativa|Negativa y significativa

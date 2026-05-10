@@ -1,0 +1,17 @@
+cod_reg;nom_reg;prom_lect2m_reg;prom_mate2m_reg;dif_lect2m_reg;dif_mate2m_reg;sigdif_lect2m_reg;sigdif_mate2m_reg;palu_eda_ins_lect2m_reg;palu_eda_ele_lect2m_reg;palu_eda_ade_lect2m_reg;palu_eda_ins_mate2m_reg;palu_eda_ele_mate2m_reg;palu_eda_ade_mate2m_reg;codigo_bbdd;fecha_bbdd;grado;agno
+1;Región de Tarapacá;245;254;-1;2;0;0;;;;;;;v12025;20260423;2m;2025
+2;Región de Antofagasta;247;256;1;3;0;0;;;;;;;v12025;20260423;2m;2025
+3;Región de Atacama;240;250;0;8;0;1;;;;;;;v12025;20260423;2m;2025
+4;Región de Coquimbo;248;256;0;2;0;0;;;;;;;v12025;20260423;2m;2025
+5;Región de Valparaíso;247;257;1;3;0;0;;;;;;;v12025;20260423;2m;2025
+6;Región del Libertador Bernardo O'higgins;249;257;2;4;0;0;;;;;;;v12025;20260423;2m;2025
+7;Región del Maule;253;266;5;6;0;0;;;;;;;v12025;20260423;2m;2025
+8;Región del Biobío;249;262;2;5;0;0;;;;;;;v12025;20260423;2m;2025
+9;Región de La Araucanía;243;253;3;5;0;0;;;;;;;v12025;20260423;2m;2025
+10;Región de Los Lagos;245;255;2;4;0;0;;;;;;;v12025;20260423;2m;2025
+11;Región de Aysén del General Carlos Ibañez del Campo;246;261;-3;4;0;0;;;;;;;v12025;20260423;2m;2025
+12;Región de Magallanes y de la Antártica Chilena;245;254;-2;-4;0;0;;;;;;;v12025;20260423;2m;2025
+13;Región metropolitana de santiago;255;271;1;4;0;0;;;;;;;v12025;20260423;2m;2025
+14;Región de los ríos;248;253;2;4;0;0;;;;;;;v12025;20260423;2m;2025
+15;Región de arica y parinacota;252;271;1;-1;0;0;;;;;;;v12025;20260423;2m;2025
+16;Región de Ñuble;248;264;0;3;0;0;;;;;;;v12025;20260423;2m;2025

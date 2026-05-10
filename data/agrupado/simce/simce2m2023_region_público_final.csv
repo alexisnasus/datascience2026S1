@@ -1,0 +1,17 @@
+cod_reg;nom_reg;prom_lect2m_reg;prom_mate2m_reg;dif_lect2m_reg;dif_mate2m_reg;sigdif_lect2m_reg;sigdif_mate2m_reg;fecha_bbdd;codigo_bbdd;grado;agno
+1;Región de Tarapacá;243;250;5;6;0;0;20240418;final20240418v1;2m;2023
+2;Región de Antofagasta;244;249;2;3;0;0;20240418;final20240418v1;2m;2023
+3;Región de Atacama;245;250;4;6;0;0;20240418;final20240418v1;2m;2023
+4;Región de Coquimbo;247;253;4;5;0;0;20240418;final20240418v1;2m;2023
+5;Región de Valparaíso;244;251;2;3;0;0;20240418;final20240418v1;2m;2023
+6;Región del Libertador Bernardo O'higgins;247;252;7;5;1;0;20240418;final20240418v1;2m;2023
+7;Región del Maule;249;256;5;5;0;0;20240418;final20240418v1;2m;2023
+8;Región del Biobío;246;255;5;6;0;1;20240418;final20240418v1;2m;2023
+9;Región de La Araucanía;243;247;4;5;0;0;20240418;final20240418v1;2m;2023
+10;Región de Los Lagos;245;249;3;1;0;0;20240418;final20240418v1;2m;2023
+11;Región de Aysén del General Carlos Ibañez del Campo;246;256;4;8;0;1;20240418;final20240418v1;2m;2023
+12;Región de Magallanes y de la Antártica Chilena;247;253;0;3;0;0;20240418;final20240418v1;2m;2023
+13;Región metropolitana de santiago;252;264;6;5;1;1;20240418;final20240418v1;2m;2023
+14;Región de los ríos;247;250;2;5;0;0;20240418;final20240418v1;2m;2023
+15;Región de arica y parinacota;249;261;3;7;0;1;20240418;final20240418v1;2m;2023
+16;Región de Ñuble;247;258;9;7;1;1;20240418;final20240418v1;2m;2023

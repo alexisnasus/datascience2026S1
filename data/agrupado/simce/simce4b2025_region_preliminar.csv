@@ -1,0 +1,17 @@
+cod_reg;nom_reg;prom_lect4b_reg;prom_mate4b_reg;dif_lect4b_reg;dif_mate4b_reg;sigdif_lect4b_reg;sigdif_mate4b_reg;palu_eda_ins_lect4b_reg;palu_eda_ele_lect4b_reg;palu_eda_ade_lect4b_reg;palu_eda_ins_mate4b_reg;palu_eda_ele_mate4b_reg;palu_eda_ade_mate4b_reg;codigo_bbdd;fecha_bbdd;grado;agno
+1;Región de Tarapacá;266;250;-3;-2;0;0;33.5;26.3;40.3;45.7;36.4;18;v12025;20260423;4b;2025
+2;Región de Antofagasta;271;257;-5;-5;0;0;29.4;27;43.6;39.7;38.6;21.7;v12025;20260423;4b;2025
+3;Región de Atacama;271;253;0;-3;0;0;30.1;26.5;43.4;43.8;36.6;19.6;v12025;20260423;4b;2025
+4;Región de Coquimbo;275;259;-2;-2;0;0;27.4;25.4;47.2;37.5;38.6;23.8;v12025;20260423;4b;2025
+5;Región de Valparaíso;270;255;-2;-3;0;0;30.4;26.6;43;40.9;38.6;20.5;v12025;20260423;4b;2025
+6;Región del Libertador Bernardo O'higgins;276;261;-1;-3;0;0;27.9;25.2;47;36.5;38.5;25;v12025;20260423;4b;2025
+7;Región del Maule;279;266;-1;-2;0;0;25.1;25;50;32.4;38.9;28.8;v12025;20260423;4b;2025
+8;Región del Biobío;279;263;0;-3;0;0;25;25.8;49.2;34.5;39.3;26.2;v12025;20260423;4b;2025
+9;Región de La Araucanía;274;258;-1;-1;0;0;28;25.9;46.1;38.9;38.5;22.5;v12025;20260423;4b;2025
+10;Región de Los Lagos;275;259;-1;-2;0;0;26.9;26.1;47.1;37.8;39.4;22.9;v12025;20260423;4b;2025
+11;Región de Aysén del General Carlos Ibañez del Campo;276;257;-1;-4;0;0;27.5;24.1;48.3;38.8;39.8;21.5;v12025;20260423;4b;2025
+12;Región de Magallanes y de la Antártica Chilena;275;259;-2;-5;0;0;26.8;26.2;47;37.9;39.8;22.3;v12025;20260423;4b;2025
+13;Región metropolitana de santiago;279;265;-2;-2;0;0;25.7;25;49.2;33.7;37.8;28.5;v12025;20260423;4b;2025
+14;Región de los ríos;274;258;-1;-1;0;0;28.4;25.8;45.8;39.1;38;22.9;v12025;20260423;4b;2025
+15;Región de arica y parinacota;274;266;-11;-6;-1;0;27.2;25.9;46.9;32.2;39.6;28.3;v12025;20260423;4b;2025
+16;Región de Ñuble;280;268;1;0;0;0;24.3;26.4;49.4;30;41.3;28.7;v12025;20260423;4b;2025

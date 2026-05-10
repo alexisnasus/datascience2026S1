@@ -1,0 +1,45 @@
+cod_reg;nom_reg;cod_deprov;nom_deprov;prom_lect2m_deprov;prom_mate2m_deprov;dif_lect2m_deprov;dif_mate2m_deprov;sigdif_lect2m_deprov;sigdif_mate2m_deprov;fecha_bbdd;codigo_bbdd;grado;agno
+1;Región de Tarapacá;11;Iquique;244;250;6;6;1;0;20240418;final20240418v1;2m;2023
+1;Región de Tarapacá;14;Tamarugal;229;243;-9;2;-1;0;20240418;final20240418v1;2m;2023
+2;Región de Antofagasta;21;Antofagasta;241;245;1;2;0;0;20240418;final20240418v1;2m;2023
+2;Región de Antofagasta;22;El Loa;250;258;3;7;0;0;20240418;final20240418v1;2m;2023
+3;Región de Atacama;31;Copiapo - Chanaral;246;249;9;15;1;1;20240418;final20240418v1;2m;2023
+3;Región de Atacama;32;Huasco - Vallenar;245;252;9;10;1;1;20240418;final20240418v1;2m;2023
+4;Región de Coquimbo;41;Elqui;250;258;3;6;0;0;20240418;final20240418v1;2m;2023
+4;Región de Coquimbo;42;Limari;244;251;4;5;0;0;20240418;final20240418v1;2m;2023
+4;Región de Coquimbo;43;Choapa;229;232;0;0;0;0;20240418;final20240418v1;2m;2023
+5;Región de Valparaíso;51;Quillota - Petorca;241;245;4;4;0;0;20240418;final20240418v1;2m;2023
+5;Región de Valparaíso;52;San Felipe - Los Andes;247;248;5;2;0;0;20240418;final20240418v1;2m;2023
+5;Región de Valparaíso;53;Valparaiso - Isla de Pascua;245;256;1;4;0;0;20240418;final20240418v1;2m;2023
+5;Región de Valparaíso;54;San Antonio;242;244;0;2;0;0;20240418;final20240418v1;2m;2023
+6;Región del Libertador Bernardo O'higgins;61;Cachapoal;247;252;7;4;1;0;20240418;final20240418v1;2m;2023
+6;Región del Libertador Bernardo O'higgins;62;Colchagua;247;252;6;6;1;0;20240418;final20240418v1;2m;2023
+6;Región del Libertador Bernardo O'higgins;63;Cardenal Caro;248;243;16;4;1;0;20240418;final20240418v1;2m;2023
+7;Región del Maule;71;Curico;254;260;8;5;1;0;20240418;final20240418v1;2m;2023
+7;Región del Maule;72;Talca;246;252;1;2;0;0;20240418;final20240418v1;2m;2023
+7;Región del Maule;73;Linares;249;259;7;8;1;1;20240418;final20240418v1;2m;2023
+7;Región del Maule;74;Cauquenes;240;243;8;9;1;1;20240418;final20240418v1;2m;2023
+8;Región del Biobío;82;Bio Bio;244;250;7;4;1;0;20240418;final20240418v1;2m;2023
+8;Región del Biobío;83;Concepcion;247;259;4;7;0;1;20240418;final20240418v1;2m;2023
+8;Región del Biobío;84;Arauco;244;246;5;3;0;0;20240418;final20240418v1;2m;2023
+9;Región de La Araucanía;91;Malleco;240;240;9;6;1;0;20240418;final20240418v1;2m;2023
+9;Región de La Araucanía;92;Cautin Norte;242;248;2;3;0;0;20240418;final20240418v1;2m;2023
+9;Región de La Araucanía;93;Cautin Sur;247;250;5;8;0;1;20240418;final20240418v1;2m;2023
+10;Región de Los Lagos;101;Llanquihue;246;249;3;-1;0;0;20240418;final20240418v1;2m;2023
+10;Región de Los Lagos;102;Chiloe;234;241;-5;1;0;0;20240418;final20240418v1;2m;2023
+10;Región de Los Lagos;103;Osorno;250;256;6;5;0;0;20240418;final20240418v1;2m;2023
+10;Región de Los Lagos;104;Palena;241;254;21;27;1;1;20240418;final20240418v1;2m;2023
+11;Región de Aysén del General Carlos Ibañez del Campo;111;Coyhaique;246;256;4;8;0;1;20240418;final20240418v1;2m;2023
+12;Región de Magallanes y de la Antártica Chilena;121;Magallanes;247;253;0;3;0;0;20240418;final20240418v1;2m;2023
+13;Región metropolitana de santiago;131;Centro;251;259;5;6;0;0;20240418;final20240418v1;2m;2023
+13;Región metropolitana de santiago;132;Sur;244;250;5;3;0;0;20240418;final20240418v1;2m;2023
+13;Región metropolitana de santiago;133;Oriente;272;299;9;8;1;1;20240418;final20240418v1;2m;2023
+13;Región metropolitana de santiago;134;Poniente;246;257;6;7;1;1;20240418;final20240418v1;2m;2023
+13;Región metropolitana de santiago;135;Talagante;243;251;3;6;0;0;20240418;final20240418v1;2m;2023
+13;Región metropolitana de santiago;136;Cordillera;248;259;5;5;0;0;20240418;final20240418v1;2m;2023
+13;Región metropolitana de santiago;137;Norte;250;262;6;5;1;0;20240418;final20240418v1;2m;2023
+14;Región de los ríos;141;Valdivia;246;247;1;1;0;0;20240418;final20240418v1;2m;2023
+14;Región de los ríos;142;Ranco;252;259;7;17;1;1;20240418;final20240418v1;2m;2023
+15;Región de arica y parinacota;151;Arica;249;261;3;6;0;0;20240418;final20240418v1;2m;2023
+15;Región de arica y parinacota;152;Parinacota;214;220;-15;26;0;0;20240418;final20240418v1;2m;2023
+16;Región de Ñuble;161;Diguillín;247;258;9;7;1;1;20240418;final20240418v1;2m;2023
