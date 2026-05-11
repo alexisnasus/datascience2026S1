@@ -21,8 +21,11 @@ def consolidar_datos_simce(input_dir: str, output_file: str):
     # Expresión regular para detectar columnas como 'prom_mate2m_rbd', 'prom_lect4b_rbd'
     regex_mate = re.compile(r'^prom_mate\w+_rbd$', re.IGNORECASE)
     regex_lect = re.compile(r'^prom_lect\w+_rbd$', re.IGNORECASE)
-    
-    columnas_deseadas = ['rbd', 'agno', 'prom_mate_rbd', 'prom_lect_rbd', 'cod_grupo', 'cod_depe2', 'cod_rural_rbd']
+    # Curso embebido en el nombre del archivo (ej. simce2m2024_rbd.csv → '2m')
+    regex_curso = re.compile(r'simce(2m|4b|6b|8b)\d{4}', re.IGNORECASE)
+
+    columnas_deseadas = ['rbd', 'agno', 'curso', 'prom_mate_rbd', 'prom_lect_rbd',
+                         'cod_grupo', 'cod_depe2', 'cod_rural_rbd']
 
     for archivo in archivos_rbd:
         print(f"Procesando: {os.path.basename(archivo)}")
@@ -49,7 +52,12 @@ def consolidar_datos_simce(input_dir: str, output_file: str):
                 rename_dict[col] = 'prom_lect_rbd'
                 
         df_temp.rename(columns=rename_dict, inplace=True)
-        
+
+        # Inferir curso desde el nombre de archivo (el sufijo se pierde al renombrar mate/lect)
+        if 'curso' not in df_temp.columns:
+            match_curso = regex_curso.search(os.path.basename(archivo).lower())
+            df_temp['curso'] = match_curso.group(1).lower() if match_curso else pd.NA
+
         # Insertar columna agno si no viene, derivándola del nombre del archivo si es necesario
         if 'agno' not in df_temp.columns:
             # Extraer el año del nombre del archivo (ej. simce2m2025_...)

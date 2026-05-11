@@ -63,19 +63,19 @@ def handle_long_format(df):
     """Pivotea df si viene en formato long permitiendo índices y sub-dimensiones."""
     if 'ind' in df.columns and 'prom' in df.columns and 'rbd' in df.columns:
         idx_cols = [c for c in df.columns if c not in ['ind', 'prom']]
-        
+
         # Estandarizar valores de la columna 'ind'
         df['ind'] = df['ind'].str.lower().str.strip()
-        
+
         # Mapeo manual para los índices principales dentro de la columna ind
         val_mapping = {
             'am': 'idps_am', 'aa': 'idps_am',  # En base 2023 AA es Autoestima Académica
-            'cc': 'idps_cc', 
-            'hv': 'idps_hv', 
+            'cc': 'idps_cc',
+            'hv': 'idps_hv',
             'pf': 'idps_pf'
         }
         df['ind'] = df['ind'].map(lambda x: val_mapping.get(x, f'dim_{x}' if not x.startswith('idps_') and not x.startswith('dim_') else x))
-        
+
         # Pivotear: el index agrupa, columns son los indicadores, values es el puntaje
         df = df.pivot_table(index=idx_cols, columns='ind', values='prom', aggfunc='max').reset_index()
         # Limpiar nombre de los márgenes del pivot
