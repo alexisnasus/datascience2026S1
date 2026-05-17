@@ -3,6 +3,21 @@ import glob
 import pandas as pd
 import re
 
+def infer_separator(filepath):
+    """Infiere el delimitador (pipe / punto y coma / coma).
+
+    Reemplaza a `sep=None` (csv.Sniffer), que falla con los archivos SIMCE
+    delimitados por pipe (2016-2022) y los partia mal, perdiendo el target.
+    """
+    with open(filepath, 'r', encoding='latin1', errors='ignore') as f:
+        first_line = f.readline()
+    if '|' in first_line:
+        return '|'
+    if ';' in first_line:
+        return ';'
+    return ','
+
+
 def consolidar_datos_simce(input_dir: str, output_file: str):
     """
     Consolida, estandariza y limpia archivos SIMCE a nivel de establecimiento (RBD).
@@ -31,11 +46,15 @@ def consolidar_datos_simce(input_dir: str, output_file: str):
         print(f"Procesando: {os.path.basename(archivo)}")
         
         try:
-            # 1. Detección robusta de delimitador usando sep=None y el motor de python
+            # 1. Detección explícita de delimitador (pipe/;/,). El csv.Sniffer
+            #    de sep=None fallaba con los archivos pipe (2016-2022).
+            sep = infer_separator(archivo)
             try:
-                df_temp = pd.read_csv(archivo, sep=None, engine='python', encoding='utf-8-sig')
+                df_temp = pd.read_csv(archivo, sep=sep, encoding='utf-8-sig',
+                                      low_memory=False)
             except UnicodeDecodeError:
-                df_temp = pd.read_csv(archivo, sep=None, engine='python', encoding='latin1')
+                df_temp = pd.read_csv(archivo, sep=sep, encoding='latin1',
+                                      low_memory=False)
         except Exception as e:
             print(f"Error al leer {archivo}: {e}")
             continue
@@ -112,7 +131,8 @@ def consolidar_datos_simce(input_dir: str, output_file: str):
 if __name__ == "__main__":
     # Rutas dinámicas basadas en la ubicación de este script
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    DIR_DATOS = os.path.join(BASE_DIR, "data", "raw", "simce")
+    # Fuente canonica versionada en el repo (ya no se usa data/raw/).
+    DIR_DATOS = os.path.join(BASE_DIR, "data", "agrupado", "simce")
     
     # Asegurar que exista la carpeta
     os.makedirs(os.path.join(BASE_DIR, "data", "processed"), exist_ok=True)

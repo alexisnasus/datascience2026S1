@@ -12,20 +12,28 @@ El proyecto sigue el estándar de la industria para ciencia de datos:
 
 ## ⚙️ Configuración del Entorno (Local)
 
-Para reproducir este proyecto en tu máquina local, sigue estos pasos para configurar tu entorno virtual en Windows e instalar sus dependencias:
+Para reproducir este proyecto en tu máquina local, crea y activa un entorno virtual según tu sistema operativo y luego instala las dependencias.
 
-1. **Crear el entorno virtual:**
-   ```bash
-   python -m venv venv
-   ```
-2. **Activar el entorno virtual:**
-   ```bash
-   venv\Scriptsctivate
-   ```
-3. **Instalar las dependencias:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+- Linux / macOS:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+- Windows (cmd):
+```cmd
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+- Windows (PowerShell):
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
 
 ## 🚀 Pipeline de Datos (ETL)
 
