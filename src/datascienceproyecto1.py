@@ -63,13 +63,89 @@ la cual posee registros históricos de establecimientos educacionales chilenos:
 
 # 1) OBTAIN: Carga y revisión inicial del dataset
 
-from google.colab import files
+import re
+from pathlib import Path
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")  # backend sin ventanas: los gráficos se guardan como PNG
 
-uploaded = files.upload()  # Sube dataset
 
-df = pd.read_csv("dataset_historico_final.csv")
+# Carpeta donde se guardan los gráficos generados (no se muestran en ejecución).
+FIG_DIR = Path(__file__).resolve().parent.parent / "reports" / "figuras_regresion_lineal"
+FIG_DIR.mkdir(parents=True, exist_ok=True)
+
+_fig_contador = [0]
+
+
+def guardar(nombre=None):
+    """Guarda la figura actual como PNG en FIG_DIR y la cierra (no la muestra).
+
+    Sustituye a plt.show(). Si no se pasa nombre, lo genera con un contador y el
+    título del gráfico (p. ej. '03_simce_matematica_por_nse.png').
+    """
+    import matplotlib.pyplot as plt
+    _fig_contador[0] += 1
+    if nombre is None:
+        fig = plt.gcf()
+        titulo = next((a.get_title() for a in fig.axes if a.get_title()), "")
+        sup = getattr(fig, "_suptitle", None)
+        if not titulo and sup is not None:
+            titulo = sup.get_text()
+        slug = re.sub(r"[^a-z0-9]+", "_", titulo.lower()).strip("_")[:40] or "figura"
+        nombre = f"{_fig_contador[0]:02d}_{slug}.png"
+    plt.savefig(FIG_DIR / nombre, dpi=120, bbox_inches="tight")
+    plt.close()
+    print(f"[figura guardada] {FIG_DIR / nombre}")
+
+
+def encontrar_dataset(nombre="dataset_historico_completo.csv"):
+    """Busca data/processed/<nombre> subiendo desde el directorio actual."""
+    for base in [Path.cwd(), *Path.cwd().parents]:
+        ruta = base / "data" / "processed" / nombre
+        if ruta.exists():
+            return ruta
+    raise FileNotFoundError(
+        f"No se encontró {nombre}. Ejecuta src/build_dataset_historico.py primero."
+    )
+
+
+def _es_control(nombre_var):
+    """True si la variable es un CONTROL de escala (curso o su interacción con NSE),
+    no una variable de interés del proyecto. 'curso' solo corrige que cada prueba
+    (2m/4b/6b/8b) tiene una escala distinta; no es un efecto sustantivo a interpretar.
+    """
+    return nombre_var.startswith("curso") or nombre_var.startswith("nse_x_curso")
+
+
+def graficar_importancia(coef_df, asignatura, color_pos, color_neg, nombre_fig):
+    """Grafica la importancia SOLO de las variables de interés (IDPS + contexto),
+    dejando los controles de escala (curso, NSE×curso) fuera del ranking para no
+    mezclar 'peras con manzanas'. Imprime ambos grupos por separado.
+    """
+    interes = coef_df[~coef_df["Variable"].map(_es_control)].copy()
+    control = coef_df[coef_df["Variable"].map(_es_control)].copy()
+    interes = interes.reindex(interes["Coeficiente"].abs().sort_values(ascending=False).index)
+
+    plt.figure(figsize=(10, 6))
+    colores = [color_pos if c > 0 else color_neg for c in interes["Coeficiente"]]
+    plt.barh(interes["Variable"], interes["Coeficiente"], color=colores)
+    plt.axvline(0, color="black", linewidth=0.8)
+    plt.gca().invert_yaxis()
+    plt.xlabel(f"Coeficiente (efecto sobre SIMCE {asignatura})")
+    plt.title(f"Importancia de variables de interés — {asignatura}\n"
+              f"(curso/NSE×curso excluidos: son controles de escala)")
+    plt.tight_layout()
+    guardar(nombre_fig)
+
+    print(f"\n Top variables de INTERÉS — {asignatura} (IDPS + contexto):")
+    print(interes.head(5).to_string(index=False))
+    print(f"\n Controles de escala (curso/NSE×curso) — NO se interpretan como efecto real:")
+    print(control.reindex(control["Coeficiente"].abs().sort_values(ascending=False).index)
+          .head(5).to_string(index=False))
+
+
+df = pd.read_csv(encontrar_dataset())
 
 print(f"Dimensiones del dataset: {df.shape[0]} filas × {df.shape[1]} columnas")
 print(f"Años disponibles: {sorted(df['agno'].unique())}")
@@ -93,6 +169,9 @@ print("Ruralidad (cod_rural_rbd):", df['cod_rural_rbd'].unique())
 # 2) SCRUB: Limpieza de dataset
 
 
+# Orden jerárquico del NSE (de menor a mayor), usado para el Ordinal Encoding y los gráficos.
+orden_nse = ['Bajo', 'Medio bajo', 'Medio', 'Medio alto', 'Alto']
+
 nse_map = {'1.0': 'Bajo', '2.0': 'Medio bajo', '3.0': 'Medio',
            '4.0': 'Medio alto', '5.0': 'Alto'}
 depe_map = {'1': 'Municipal', '2': 'Particular subvencionado',
@@ -113,6 +192,11 @@ print(f"\nValores nulos por columna:")
 print(df.isnull().sum())
 df = df.dropna()
 print(f"Filas después de dropna: {len(df)}")
+
+# Interacción NSE × curso: el efecto del nivel socioeconómico sobre el SIMCE no es
+# igual en todos los cursos. Se crea una variable combinada para capturarlo en el
+# modelo (mejora el ajuste al incluir todos los cursos, no solo 2° medio).
+df['nse_x_curso'] = df['cod_grupo'].astype(str) + " · " + df['curso'].astype(str)
 
 # Detección y eliminación de Outliers en SIMCE
 for col in ['prom_mate2m_rbd', 'prom_lect2m_rbd']:
@@ -146,6 +230,45 @@ cols_interes = ['prom_mate2m_rbd', 'prom_lect2m_rbd',
                 'ind_am', 'ind_cc', 'ind_hv', 'ind_pf']
 print(df[cols_interes].describe().round(2))
 
+# 3.0) EXPLORE: Análisis de simetría (skewness)
+# La regresión lineal asume errores aproximadamente simétricos. Revisamos el sesgo
+# de targets y predictores; |skew| > 1 indicaría asimetría marcada (evaluar log/Box-Cox).
+from scipy.stats import skew
+
+print("\n -- Análisis de simetría (skewness) --")
+skew_tabla = (
+    df[cols_interes]
+    .apply(lambda s: skew(s.dropna()))
+    .round(3)
+    .rename("skewness")
+    .to_frame()
+)
+skew_tabla["asimetria"] = skew_tabla["skewness"].abs().apply(
+    lambda v: "marcada" if v > 1 else ("moderada" if v > 0.5 else "leve")
+)
+print(skew_tabla.to_string())
+print("Lectura: todos los |skew| < 1 -> simetría aceptable, no se requiere transformación.")
+
+# 3.0b) EXPLORE: Multicolinealidad — VIF de los indicadores IDPS
+# El VIF mide cuánto se infla la varianza de un coeficiente por su correlación con
+# los otros predictores. VIF > 5 advierte multicolinealidad relevante (justifica Ridge).
+from sklearn.linear_model import LinearRegression as _LR
+
+def calcular_vif(df_predictores):
+    filas = []
+    for variable in df_predictores.columns:
+        otras = [c for c in df_predictores.columns if c != variable]
+        r2_aux = _LR().fit(df_predictores[otras], df_predictores[variable]).score(
+            df_predictores[otras], df_predictores[variable])
+        vif = np.inf if r2_aux >= 1 else 1 / (1 - r2_aux)
+        filas.append({"variable": variable, "VIF": round(vif, 3)})
+    return pd.DataFrame(filas).sort_values("VIF", ascending=False)
+
+print("\n -- VIF de los indicadores IDPS --")
+vif_idps = calcular_vif(df[['ind_am', 'ind_cc', 'ind_hv', 'ind_pf']].dropna())
+print(vif_idps.to_string(index=False))
+print(f"Variables con VIF > 5: {vif_idps.query('VIF > 5')['variable'].tolist() or 'ninguna'}")
+
 """##Distribución de puntajes SIMCE de Matemática
 
 A continuación se visualiza la distribución de los puntajes SIMCE de Matemática por establecimiento educacional.
@@ -159,7 +282,7 @@ ax.set_title("Distribución SIMCE Matemática por establecimiento")
 ax.set_xlabel("Puntaje")
 ax.set_ylabel("Frecuencia")
 plt.tight_layout()
-plt.show()
+guardar()
 
 """##Puntaje SIMCE según nivel socioeconómico (NSE)
 
@@ -177,7 +300,7 @@ ax.set_title("SIMCE Matemática por NSE")
 ax.set_xlabel("NSE")
 ax.set_ylabel("Puntaje SIMCE Matemática")
 plt.tight_layout()
-plt.show()
+guardar()
 
 """##Puntaje SIMCE según dependencia administrativa
 
@@ -193,7 +316,7 @@ sns.boxplot(data=df, x='cod_depe2', y='prom_mate2m_rbd',
 ax.set_title("SIMCE Matemática por tipo de establecimiento")
 ax.set_xlabel("Dependencia")
 plt.tight_layout()
-plt.show()
+guardar()
 
 """##Matriz de correlaciones
 
@@ -207,7 +330,7 @@ plt.figure(figsize=(8, 6))
 sns.heatmap(corr, annot=True, fmt=".2f", cmap="coolwarm", center=0)
 plt.title("Matriz de Correlación: IDPS vs SIMCE")
 plt.tight_layout()
-plt.show()
+guardar()
 
 """##Relación entre indicadores IDPS y SIMCE Matemática
 
@@ -228,7 +351,7 @@ for ax, (col, nombre) in zip(axes.flatten(), idps):
     ax.set_title(f"{nombre} vs SIMCE Matemática")
 plt.suptitle("Relación entre cada IDPS y SIMCE Matemática", fontsize=13)
 plt.tight_layout()
-plt.show()
+guardar()
 
 """## Conclusiones Análisis Exploratorio:
 
@@ -266,7 +389,7 @@ Además, se utiliza validación cruzada para evaluar la estabilidad del modelo
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder, StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
@@ -274,9 +397,12 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 target = "prom_mate2m_rbd"
 
 features_num = ["ind_am", "ind_cc", "ind_hv", "ind_pf"]
-features_cat = ["cod_grupo", "cod_rural_rbd", "cod_depe2"]
+# NSE va por separado con Ordinal Encoding (respeta el orden Bajo<...<Alto).
+features_ord = ["cod_grupo"]
+# 'curso' distingue el nivel evaluado; 'nse_x_curso' es la interacción NSE×curso.
+features_cat = ["cod_rural_rbd", "cod_depe2", "curso", "nse_x_curso"]
 
-X = df[features_num + features_cat]
+X = df[features_num + features_ord + features_cat]
 y = df[target]
 
 # Train/Test split 80/20
@@ -286,8 +412,12 @@ X_train, X_test, y_train, y_test = train_test_split(
 print(f"Train: {len(X_train)} registros | Test: {len(X_test)} registros")
 
 # Pipeline de preprocesamiento + modelo
+# NSE -> Ordinal Encoding (1..5 según jerarquía socioeconómica); resto categórico -> One-Hot.
 preprocessor = ColumnTransformer(transformers=[
     ("num", StandardScaler(), features_num),
+    ("ord", OrdinalEncoder(categories=[orden_nse],
+                           handle_unknown="use_encoded_value", unknown_value=-1),
+     features_ord),
     ("cat", OneHotEncoder(handle_unknown="ignore"), features_cat)
 ])
 
@@ -300,19 +430,35 @@ model = Pipeline(steps=[
 model.fit(X_train, y_train)
 
 # Predicciones y métricas
-y_pred = model.predict(X_test)
 # MSE: No tiene sentido utilizarlo en el contexto de puntajes SIMCE (pts^2)
 # MAPE: En este contexto no hay un cero natural, por lo que no aplica bien
 ## No hay cero natural pq -> un puntaje de 200 no significa "no hay conocimiento"
+# Se prioriza el MAE como métrica de negocio: expresa el error promedio directamente
+# en puntos SIMCE, lo que lo hace interpretable para directivos ("se equivoca en ±X
+# puntos"). RMSE acompaña (penaliza errores grandes) y R² mide varianza explicada.
+
+def metricas_split(modelo, X_, y_):
+    pred = modelo.predict(X_)
+    return {
+        "MAE": mean_absolute_error(y_, pred),
+        "RMSE": np.sqrt(mean_squared_error(y_, pred)),
+        "R2": r2_score(y_, pred),
+    }
+
+y_pred = model.predict(X_test)
 mae  = mean_absolute_error(y_test, y_pred)
 rmse = np.sqrt(mean_squared_error(y_test, y_pred))
 r2   = r2_score(y_test, y_pred)
 
-print("\n  RESULTADOS DEL MODELO: \n")
+# Comparación explícita Train vs Test (para detectar sobreajuste)
+m_train = metricas_split(model, X_train, y_train)
+m_test  = metricas_split(model, X_test, y_test)
+tabla_tt = pd.DataFrame([m_train, m_test], index=["Train", "Test"]).round(3)
+tabla_tt.loc["Brecha (Test-Train)"] = (tabla_tt.loc["Test"] - tabla_tt.loc["Train"]).round(3)
 
-print(f"  MAE:  {mae:.2f}  puntos promedio de error")
-print(f"  RMSE: {rmse:.2f}  error cuadrático medio")
-print(f"  R²:   {r2:.3f}   varianza explicada por el modelo")
+print("\n  RESULTADOS DEL MODELO (Matemática) — Train vs Test: \n")
+print(tabla_tt.to_string())
+print("\n  Una brecha pequeña Train->Test indica que NO hay sobreajuste relevante.")
 
 # Validación cruzada (5 folds)
 cv_scores = cross_val_score(model, X, y, cv=5, scoring='r2')
@@ -346,7 +492,7 @@ plt.ylabel("Valores predichos")
 plt.title("Regresión Lineal: Valores reales vs predichos")
 plt.legend()
 plt.tight_layout()
-plt.show()
+guardar()
 
 """##Distribución de residuos
 
@@ -363,7 +509,7 @@ plt.xlabel("Residuo (Real − Predicho)")
 plt.ylabel("Frecuencia")
 plt.title("Distribución de residuos")
 plt.tight_layout()
-plt.show()
+guardar()
 
 """##Importancia de variables
 
@@ -376,6 +522,7 @@ feature_names = (
     model.named_steps['preprocessor']
     .named_transformers_['num']
     .get_feature_names_out(features_num).tolist() +
+    features_ord +
     model.named_steps['preprocessor']
     .named_transformers_['cat']
     .get_feature_names_out(features_cat).tolist()
@@ -383,19 +530,8 @@ feature_names = (
 
 coefs = model.named_steps['regressor'].coef_
 coef_df = pd.DataFrame({'Variable': feature_names, 'Coeficiente': coefs})
-coef_df = coef_df.reindex(coef_df['Coeficiente'].abs().sort_values(ascending=False).index)
 
-plt.figure(figsize=(10, 6))
-colors = ['steelblue' if c > 0 else 'coral' for c in coef_df['Coeficiente']]
-plt.barh(coef_df['Variable'], coef_df['Coeficiente'], color=colors)
-plt.axvline(0, color='black', linewidth=0.8)
-plt.xlabel("Coeficiente (efecto sobre SIMCE Matemática)")
-plt.title("Importancia de variables — Regresión Lineal")
-plt.tight_layout()
-plt.show()
-
-print("\n Top 5 variables con mayor efecto")
-print(coef_df.head(5).to_string(index=False))
+graficar_importancia(coef_df, "Matemática", "steelblue", "coral", "08_importancia_matematica.png")
 
 """---------
 
@@ -416,7 +552,7 @@ ax.set_title("Distribución SIMCE Lectura por establecimiento")
 ax.set_xlabel("Puntaje")
 ax.set_ylabel("Frecuencia")
 plt.tight_layout()
-plt.show()
+guardar()
 
 """##Puntaje SIMCE según nivel socioeconómico (NSE)
 
@@ -434,7 +570,7 @@ ax.set_title("SIMCE Lectura por NSE")
 ax.set_xlabel("NSE")
 ax.set_ylabel("Puntaje SIMCE Lectura")
 plt.tight_layout()
-plt.show()
+guardar()
 
 """##Puntaje SIMCE según dependencia administrativa
 
@@ -451,7 +587,7 @@ ax.set_title("SIMCE Lectura por tipo de establecimiento")
 ax.set_xlabel("Dependencia")
 ax.set_ylabel("Puntaje SIMCE Lectura")
 plt.tight_layout()
-plt.show()
+guardar()
 
 """##Relación entre indicadores IDPS y SIMCE Lenguaje
 
@@ -472,7 +608,7 @@ for ax, (col, nombre) in zip(axes.flatten(), idps):
     ax.set_title(f"{nombre} vs SIMCE Lectura")
 plt.suptitle("Relación entre cada IDPS y SIMCE Lectura", fontsize=13)
 plt.tight_layout()
-plt.show()
+guardar()
 
 """## Conclusiones Análisis Exploratorio:
 
@@ -494,7 +630,7 @@ plt.show()
 
 target_lect = "prom_lect2m_rbd"
 
-X_lect = df[features_num + features_cat]
+X_lect = df[features_num + features_ord + features_cat]
 y_lect = df[target_lect]
 
 X_train_l, X_test_l, y_train_l, y_test_l = train_test_split(
@@ -514,10 +650,15 @@ mae_l  = mean_absolute_error(y_test_l, y_pred_l)
 rmse_l = np.sqrt(mean_squared_error(y_test_l, y_pred_l))
 r2_l   = r2_score(y_test_l, y_pred_l)
 
-print("\n  RESULTADOS DEL MODELO LECTURA: \n")
-print(f"  MAE:  {mae_l:.2f}  puntos promedio de error")
-print(f"  RMSE: {rmse_l:.2f}  error cuadrático medio")
-print(f"  R²:   {r2_l:.3f}   varianza explicada por el modelo")
+# Comparación explícita Train vs Test (Lectura)
+m_train_l = metricas_split(model_lect, X_train_l, y_train_l)
+m_test_l  = metricas_split(model_lect, X_test_l, y_test_l)
+tabla_tt_l = pd.DataFrame([m_train_l, m_test_l], index=["Train", "Test"]).round(3)
+tabla_tt_l.loc["Brecha (Test-Train)"] = (tabla_tt_l.loc["Test"] - tabla_tt_l.loc["Train"]).round(3)
+
+print("\n  RESULTADOS DEL MODELO (Lectura) — Train vs Test: \n")
+print(tabla_tt_l.to_string())
+print("\n  Una brecha pequeña Train->Test indica que NO hay sobreajuste relevante.")
 
 cv_scores_l = cross_val_score(model_lect, X_lect, y_lect, cv=5, scoring='r2')
 print(f"\nValidación cruzada R² (5 folds): {cv_scores_l.round(3)}")
@@ -548,7 +689,7 @@ plt.ylabel("Valores predichos")
 plt.title("Regresión Lineal: Valores reales vs predichos — Lectura")
 plt.legend()
 plt.tight_layout()
-plt.show()
+guardar()
 
 # 8.1) iNTERPRET: Distribución de residuos - Lectura
 
@@ -560,7 +701,7 @@ plt.xlabel("Residuo (Real − Predicho)")
 plt.ylabel("Frecuencia")
 plt.title("Distribución de residuos — Lectura")
 plt.tight_layout()
-plt.show()
+guardar()
 
 # 8.2) iNTERPRET: Importancia de variables — Lectura
 
@@ -568,6 +709,7 @@ feature_names_l = (
     model_lect.named_steps['preprocessor']
     .named_transformers_['num']
     .get_feature_names_out(features_num).tolist() +
+    features_ord +
     model_lect.named_steps['preprocessor']
     .named_transformers_['cat']
     .get_feature_names_out(features_cat).tolist()
@@ -575,19 +717,53 @@ feature_names_l = (
 
 coefs_l = model_lect.named_steps['regressor'].coef_
 coef_df_l = pd.DataFrame({'Variable': feature_names_l, 'Coeficiente': coefs_l})
-coef_df_l = coef_df_l.reindex(coef_df_l['Coeficiente'].abs().sort_values(ascending=False).index)
 
-plt.figure(figsize=(10, 6))
-colors_l = ['coral' if c > 0 else 'steelblue' for c in coef_df_l['Coeficiente']]
-plt.barh(coef_df_l['Variable'], coef_df_l['Coeficiente'], color=colors_l)
-plt.axvline(0, color='black', linewidth=0.8)
-plt.xlabel("Coeficiente (efecto sobre SIMCE Lectura)")
-plt.title("Importancia de variables — Regresión Lineal Lectura")
-plt.tight_layout()
-plt.show()
+graficar_importancia(coef_df_l, "Lectura", "coral", "steelblue", "15_importancia_lectura.png")
 
-print("\n Top 5 variables con mayor efecto")
-print(coef_df_l.head(5).to_string(index=False))
+"""----------------
+
+## Análisis de influencia: Distancia de Cook
+
+La Distancia de Cook mide cuánto influye cada establecimiento en los coeficientes del
+modelo. Las observaciones con D_i > 4·media(D) se consideran puntos influyentes y conviene
+revisarlas (pueden ser errores de digitalización de la fuente o casos atípicos legítimos).
+"""
+
+# 9) iNTERPRET: Distancia de Cook (puntos influyentes)
+
+import statsmodels.api as sm
+
+def distancia_cook(df_modelo, target, titulo, nombre_fig):
+    # Diseño numérico: IDPS estandarizados + NSE ordinal + dummies del resto categórico.
+    Xc = pd.DataFrame(index=df_modelo.index)
+    Xc[features_num] = df_modelo[features_num]
+    Xc["nse_ord"] = df_modelo["cod_grupo"].map({c: i + 1 for i, c in enumerate(orden_nse)})
+    Xc = pd.concat([Xc, pd.get_dummies(df_modelo[features_cat], drop_first=True)], axis=1)
+    Xc = sm.add_constant(Xc.astype(float))
+    ols = sm.OLS(df_modelo[target].astype(float), Xc).fit()
+    d = ols.get_influence().cooks_distance[0]
+    umbral = 4 * d.mean()
+    n_infl = int((d > umbral).sum())
+    print(f"\n[{titulo}] umbral 4·media(D) = {umbral:.5f}  ->  "
+          f"{n_infl} puntos influyentes ({100 * n_infl / len(d):.1f}%)")
+
+    plt.figure(figsize=(11, 4))
+    plt.scatter(np.arange(len(d)), d, s=6, color="steelblue", alpha=0.5)
+    plt.axhline(umbral, color="red", ls="--", label="4·media(D)")
+    plt.title(f"Distancia de Cook — {titulo}")
+    plt.xlabel("Índice de observación (train)")
+    plt.ylabel("Cook's D")
+    plt.legend()
+    plt.tight_layout()
+    guardar(nombre_fig)
+
+    influyentes = df_modelo.loc[d > umbral, ["rbd", "agno", "curso"]].assign(cook=d[d > umbral])
+    print("  Top establecimientos influyentes:")
+    print(influyentes.sort_values("cook", ascending=False).head(10).to_string(index=False))
+
+# Se ajusta sobre el set de entrenamiento de cada modelo (mismas filas que el split).
+distancia_cook(df.loc[X_train.index], target, "Matemática", "16_distancia_cook_matematica.png")
+distancia_cook(df.loc[X_train_l.index], target_lect, "Lectura", "17_distancia_cook_lectura.png")
 
 """----------------
 

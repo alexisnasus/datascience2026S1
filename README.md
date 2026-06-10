@@ -45,7 +45,26 @@ Limpia y estandariza múltiples archivos IDPS. Detecta delimitadores automática
 ### 2. Procesamiento de SIMCE (`fusion_simce.py`)
 Consolida, estandariza y limpia los archivos SIMCE estrictamente a nivel de establecimiento (`_rbd`). Maneja problemas de _encoding_ con caracteres latinos, normaliza los nombres de los promedios y aplica limpieza selectiva filtrando escuelas nulas en la variable *Target* (Lectura y Matemática).
 
-### 3. Generación de Diccionarios y Glosas
+### 3. Datasets analíticos (join IDPS + SIMCE)
+
+A partir de los dos consolidados se arman dos datasets para modelar, según el enfoque:
+
+- **`build_dataset_historico.py`** → `data/processed/dataset_historico_completo.csv`
+  Join **contemporáneo** (mismo año) con **todos los cursos** (2m/4b/6b/8b). Entrada de los modelos
+  descriptivos (`datascienceproyecto1.py`, `ridge_simce_modelo_unificado.py`). Ver
+  [docs/diccionario_historico_completo.md](docs/diccionario_historico_completo.md).
+- **`build_dataset_maestro.py`** → `data/processed/dataset_maestro.csv`
+  Join **predictivo** con desfase temporal T-1 (predice el SIMCE del año siguiente). Entrada del
+  modelo predictivo. Ver [docs/diccionario_maestro.md](docs/diccionario_maestro.md).
+
+```bash
+python src/build_dataset_historico.py   # dataset contemporáneo (todos los cursos)
+python src/build_dataset_maestro.py     # dataset predictivo (desfase T-1)
+```
+
+> Requieren haber corrido antes los pasos 1 y 2 (los dos consolidados).
+
+### 4. Generación de Diccionarios y Glosas
 - **`consolidar_glosas.py`**: Itera sobre diccionarios `.xlsx` del IDPS consolidando miles de registros en un archivo maestro de referencia.
 - **`extraer_diccionario_completo.py`**: Escanea dinámicamente las hojas de cálculo de las glosas SIMCE evadiendo índices y metadatos basura para recuperar 168 variables únicas históricas.
 
