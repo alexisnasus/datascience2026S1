@@ -9,6 +9,12 @@ Dataset analítico **contemporáneo** (mismo año) generado por
 > **Contemporáneo vs. predictivo:** aquí predictores y target son del **mismo año T** (análisis de
 > asociación, no de pronóstico). Para el enfoque predictivo con desfase temporal T-1 ver
 > [`diccionario_maestro.md`](diccionario_maestro.md) (`dataset_maestro.csv`).
+>
+> **Variante por curso:** [`src/build_dataset_historico_per_curso.py`](../src/build_dataset_historico_per_curso.py)
+> genera el **mismo dataset separado por nivel** en `data/processed/por_curso/dataset_historico_{4b,6b,8b,2m}.csv`
+> (idéntico esquema; sus filas son las rebanadas por curso de este dataset). Es la entrada del modelo
+> per-curso [`src/datascienceproyecto1_per_curso.py`](../src/datascienceproyecto1_per_curso.py), que
+> recorta outliers (IQR) por curso.
 
 ## Estructura
 

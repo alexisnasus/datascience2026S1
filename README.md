@@ -1,72 +1,86 @@
-# 📚 Proyecto de Data Science: Predicción SIMCE mediante IDPS (2016-2025)
+# 📚 SIMCE × IDPS — Pipeline de datos y modelos (2016–2025)
 
-Este repositorio contiene el pipeline de datos (fase de *Obtain & Scrub* bajo la metodología OSEMN) para procesar el histórico de datos educacionales de Chile (SIMCE e IDPS). El objetivo final es preparar un **Dataset Maestro** consolidado para entrenar un modelo de Machine Learning orientado a predecir el puntaje SIMCE basándose en variables de contexto y desarrollo personal y social (IDPS).
+Proyecto de Data Science (metodología **OSEMN**) que consolida 10 años de datos educacionales
+chilenos — puntajes **SIMCE** e **Indicadores de Desarrollo Personal y Social (IDPS)** — y entrena
+modelos de regresión para estudiar **cómo se relaciona el desarrollo personal/social con el
+rendimiento académico** de los establecimientos. Todo el código, los datos y la documentación están
+en **español**.
 
-## 📂 Estructura del Proyecto
+## ⚙️ Levantar el entorno
 
-El proyecto sigue el estándar de la industria para ciencia de datos:
+Crea y activa un entorno virtual, luego instala las dependencias:
 
-- `data/`: Almacena los datos crudos (`raw/`), y los resultantes (`processed/`). *Nota: Los datos crudos no se suben a GitHub por su peso.*
-- `src/`: Contiene el código fuente y los scripts de ETL y consolidación.
-- `docs/`: Documentación, diccionarios de variables y metadatos.
-
-## ⚙️ Configuración del Entorno (Local)
-
-Para reproducir este proyecto en tu máquina local, crea y activa un entorno virtual según tu sistema operativo y luego instala las dependencias.
-
-- Linux / macOS:
+**Linux / macOS**
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-- Windows (cmd):
+**Windows (cmd)**
 ```cmd
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-- Windows (PowerShell):
+**Windows (PowerShell)**
 ```powershell
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
-## 🚀 Pipeline de Datos (ETL)
+## 🚀 Cómo correr el pipeline
 
-Durante la fase inicial, se lidiaron con anomalías temporales (*data drifts*), múltiples delimitadores y variaciones de formato ancho/largo. Se desarrollaron los siguientes scripts en `src/`:
-
-### 1. Procesamiento de IDPS (`scrub_and_merge_idps.py`)
-Limpia y estandariza múltiples archivos IDPS. Detecta delimitadores automáticamente, maneja el salto de formato *wide* a *long* en 2023 aplicando pivotes dinámicos, y fusiona archivos de manera horizontal (por año/curso) y vertical (histórico completo 2016-2025).
-
-### 2. Procesamiento de SIMCE (`fusion_simce.py`)
-Consolida, estandariza y limpia los archivos SIMCE estrictamente a nivel de establecimiento (`_rbd`). Maneja problemas de _encoding_ con caracteres latinos, normaliza los nombres de los promedios y aplica limpieza selectiva filtrando escuelas nulas en la variable *Target* (Lectura y Matemática).
-
-### 3. Datasets analíticos (join IDPS + SIMCE)
-
-A partir de los dos consolidados se arman dos datasets para modelar, según el enfoque:
-
-- **`build_dataset_historico.py`** → `data/processed/dataset_historico_completo.csv`
-  Join **contemporáneo** (mismo año) con **todos los cursos** (2m/4b/6b/8b). Entrada de los modelos
-  descriptivos (`datascienceproyecto1.py`, `ridge_simce_modelo_unificado.py`). Ver
-  [docs/diccionario_historico_completo.md](docs/diccionario_historico_completo.md).
-- **`build_dataset_maestro.py`** → `data/processed/dataset_maestro.csv`
-  Join **predictivo** con desfase temporal T-1 (predice el SIMCE del año siguiente). Entrada del
-  modelo predictivo. Ver [docs/diccionario_maestro.md](docs/diccionario_maestro.md).
+El orden es **consolidar → unir → modelar**. Cada script resuelve sus propias rutas, así que
+funcionan desde cualquier carpeta. No hay tests ni build: "correr" es ejecutar estos scripts.
 
 ```bash
-python src/build_dataset_historico.py   # dataset contemporáneo (todos los cursos)
-python src/build_dataset_maestro.py     # dataset predictivo (desfase T-1)
+# 1. Consolidar las dos fuentes crudas
+python src/scrub_and_merge_idps.py
+python src/fusion_simce.py
+
+# 2. Armar el dataset analítico (elige el enfoque que quieras modelar)
+python src/build_dataset_historico.py            # contemporáneo, todos los cursos juntos
+python src/build_dataset_historico_per_curso.py  # contemporáneo, un archivo por curso
+python src/build_dataset_maestro.py              # predictivo (desfase temporal T-1)
+
+# 3. Modelar
+python src/datascienceproyecto1.py               # regresión, todos los cursos juntos
+python src/datascienceproyecto1_per_curso.py     # regresión, un modelo por curso
 ```
 
-> Requieren haber corrido antes los pasos 1 y 2 (los dos consolidados).
+## 📂 Estructura
 
-### 4. Generación de Diccionarios y Glosas
-- **`consolidar_glosas.py`**: Itera sobre diccionarios `.xlsx` del IDPS consolidando miles de registros en un archivo maestro de referencia.
-- **`extraer_diccionario_completo.py`**: Escanea dinámicamente las hojas de cálculo de las glosas SIMCE evadiendo índices y metadatos basura para recuperar 168 variables únicas históricas.
+- **`src/`** — todos los scripts (ver tabla más abajo).
+- **`data/agrupado/`** — fuente cruda canónica (versionada: el pipeline corre en un clon limpio sin pasos manuales).
+- **`data/processed/`** — salidas del pipeline (consolidados + datasets analíticos). `por_curso/` guarda los 4 datasets por nivel.
+- **`data/glosas_idps/`, `data/glosa_simce/`** — diccionarios oficiales `.xlsx` de variables.
+- **`docs/`** — diccionarios de variables y notas (`diccionario_*.md`).
+- **`reports/`** — figuras generadas por los modelos.
 
-## 📝 Documentación Adicional
-En la capeta `docs/` se encuentran detallados los diccionarios oficiales (`diccionario_idps.md`, `simce.md`) que registran las predictoras base, metadatos, codificación categórica y registro de cambios estructurales documentados a lo largo de los años.
+## 🧩 Scripts (`src/`)
+
+| Script | Qué hace |
+|---|---|
+| **Consolidación (Obtain & Scrub)** | |
+| `scrub_and_merge_idps.py` | Limpia y consolida los IDPS de todos los años/cursos → `dataset_consolidado_idps.csv`. Maneja el cambio de formato ancho→largo (2023+) y los códigos de indicador. |
+| `fusion_simce.py` | Consolida los SIMCE a nivel establecimiento → `dataset_simce_consolidado.csv`. Detecta delimitadores y _encoding_ por año y normaliza los nombres de los puntajes. |
+| **Join (datasets analíticos)** | |
+| `build_dataset_historico.py` | Une IDPS+SIMCE del **mismo año**, todos los cursos → `dataset_historico_completo.csv`. |
+| `build_dataset_historico_per_curso.py` | Mismo join contemporáneo, pero **un archivo por curso** (4b/6b/8b/2m) en `data/processed/por_curso/`. |
+| `build_dataset_maestro.py` | Une con **desfase T-1** (predice el SIMCE del año siguiente) → `dataset_maestro.csv`. |
+| **Modelado** | |
+| `datascienceproyecto1.py` | Regresión lineal (Matemática y Lectura) con **todos los cursos juntos**. Figuras en `reports/figuras_regresion_lineal/`. |
+| `datascienceproyecto1_per_curso.py` | Regresión lineal **por curso** (8 modelos) para ver cómo cambia el efecto de los IDPS según el nivel. Figuras en `reports/figuras_por_curso/`. |
+| **Utilidad** | |
+| `extract_glossaries.py` | Extrae las glosas/diccionarios oficiales `.xlsx` → `todas_las_glosas*.csv`. |
+
+> **Legacy / en pausa (no usar):** `ridge_simce_modelo_unificado.py` (modelo Ridge, aún en formato Colab, en pausa), `extraccion_presentacion.py` (huérfano: leía un PDF ya eliminado) y los artefactos congelados `data/dataset_historico_final.csv` + `reports/figuras/`.
+
+## 📝 Documentación
+
+La carpeta `docs/` detalla los diccionarios de variables (`diccionario_idps.md`, `diccionario_simce.md`),
+los datasets analíticos (`diccionario_historico_completo.md`, `diccionario_maestro.md`) y el registro de
+los cambios estructurales año a año que motivaron gran parte de la limpieza.
