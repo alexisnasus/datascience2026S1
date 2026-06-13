@@ -130,7 +130,8 @@ def consolidar_datos_simce(input_dir: str, output_file: str):
 
 if __name__ == "__main__":
     # Rutas dinámicas basadas en la ubicación de este script
-    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    # src/obtener_y_limpiar/<archivo>.py -> raíz del repo (tres niveles arriba)
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     # Fuente canonica versionada en el repo (ya no se usa data/raw/).
     DIR_DATOS = os.path.join(BASE_DIR, "data", "agrupado", "simce")
     

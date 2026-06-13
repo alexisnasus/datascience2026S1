@@ -1,20 +1,21 @@
 # Diccionario: `dataset_historico_completo.csv`
 
 Dataset analítico **contemporáneo** (mismo año) generado por
-[`src/build_dataset_historico.py`](../src/build_dataset_historico.py). Es la entrada de los
-**modelos descriptivo-explicativos** (regresión lineal
-[`src/datascienceproyecto1.py`](../src/datascienceproyecto1.py); Ridge
-[`src/ridge_simce_modelo_unificado.py`](../src/ridge_simce_modelo_unificado.py)).
+[`src/construir_datasets/build_dataset_historico.py`](../src/construir_datasets/build_dataset_historico.py).
+Es la entrada del **maestro contemporáneo**
+[`src/modelado/modelo_contemporaneo_simce.py`](../src/modelado/modelo_contemporaneo_simce.py),
+en concreto su **Sección A (global, todos los cursos)** y su **Sección C (unificado mate+lect con
+`tipo_prueba`)**.
 
 > **Contemporáneo vs. predictivo:** aquí predictores y target son del **mismo año T** (análisis de
 > asociación, no de pronóstico). Para el enfoque predictivo con desfase temporal T-1 ver
 > [`diccionario_maestro.md`](diccionario_maestro.md) (`dataset_maestro.csv`).
 >
-> **Variante por curso:** [`src/build_dataset_historico_per_curso.py`](../src/build_dataset_historico_per_curso.py)
+> **Variante por curso:** [`src/construir_datasets/build_dataset_historico_per_curso.py`](../src/construir_datasets/build_dataset_historico_per_curso.py)
 > genera el **mismo dataset separado por nivel** en `data/processed/por_curso/dataset_historico_{4b,6b,8b,2m}.csv`
-> (idéntico esquema; sus filas son las rebanadas por curso de este dataset). Es la entrada del modelo
-> per-curso [`src/datascienceproyecto1_per_curso.py`](../src/datascienceproyecto1_per_curso.py), que
-> recorta outliers (IQR) por curso.
+> (idéntico esquema; sus filas son las rebanadas por curso de este dataset). Es la entrada de la
+> **Sección B (por curso)** del mismo maestro `modelo_contemporaneo_simce.py`, que recorta outliers
+> (IQR) por curso.
 
 ## Estructura
 

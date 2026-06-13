@@ -23,8 +23,8 @@ from pathlib import Path
 
 import pandas as pd
 
-# --- Rutas ---
-BASE_DIR = Path(__file__).resolve().parent.parent
+# --- Rutas ---  (src/construir_datasets/<archivo>.py -> raíz del repo = parents[2])
+BASE_DIR = Path(__file__).resolve().parents[2]
 PROCESSED = BASE_DIR / "data" / "processed"
 IDPS_CSV = PROCESSED / "dataset_consolidado_idps.csv"
 SIMCE_CSV = PROCESSED / "dataset_simce_consolidado.csv"

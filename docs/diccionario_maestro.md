@@ -1,9 +1,10 @@
 # Diccionario: `dataset_maestro.csv`
 
 Dataset analítico **predictivo temporal** generado por
-[`src/build_dataset_maestro.py`](../src/build_dataset_maestro.py). Era la entrada de la fase
-**Explore & Model** predictiva; el script de modelado (`src/modelo_predictivo_simce.py`) fue
-**eliminado**, pero este dataset y su script de construcción se mantienen.
+[`src/construir_datasets/build_dataset_maestro.py`](../src/construir_datasets/build_dataset_maestro.py).
+Es la entrada del **maestro predictivo**
+[`src/modelado/modelo_predictivo_simce.py`](../src/modelado/modelo_predictivo_simce.py) (OLS + RidgeCV +
+ElasticNetCV, partición *out-of-time* con test = 2025; verificado test R²≈0.62 mate / 0.52 lect).
 
 ## Estructura
 

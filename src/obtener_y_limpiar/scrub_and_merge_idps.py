@@ -15,7 +15,8 @@ import os
 import re
 
 # Configuracion de rutas dinamicas
-BASE_PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# src/obtener_y_limpiar/<archivo>.py -> raíz del repo (tres niveles arriba)
+BASE_PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 # Fuente canonica versionada en el repo (no se usa data/raw/, que era una
 # copia manual redundante).
 BASE_DIR = os.path.join(BASE_PROJECT_DIR, "data", "agrupado", "idps")

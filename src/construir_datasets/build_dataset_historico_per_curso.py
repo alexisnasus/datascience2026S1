@@ -41,7 +41,7 @@ from build_dataset_historico import (
 )
 
 # --- Rutas ---
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parents[2]  # src/construir_datasets/<archivo>.py -> raíz
 PROCESSED = BASE_DIR / "data" / "processed"
 POR_CURSO_DIR = PROCESSED / "por_curso"
 
