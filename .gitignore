@@ -19,3 +19,15 @@ data/raw/
 
 .claude
 docs/presentación
+
+# Imágenes / figuras generadas por los modelos (regenerables: no se versionan)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.bmp
+*.webp
+*.tif
+*.tiff
+*.ico
